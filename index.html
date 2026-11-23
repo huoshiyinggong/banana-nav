@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="香蕉导航，一个支持百度和 Google 搜索切换、分类浏览和常用网站卡片的中文导航网站。"
+    />
+    <title>香蕉导航</title>
+    <link rel="icon" type="image/svg+xml" href="assets/app-logo.svg?v=20260710-banana-quick-add" />
+    <link rel="stylesheet" href="styles.css?v=20261123-github-1" />
+  </head>
+  <body>
+    <button class="settings-button" id="admin-toggle" type="button" aria-label="管理员登录">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" />
+        <path d="M19.4 15a1.8 1.8 0 0 0 .36 1.98l.04.04a2.1 2.1 0 0 1-2.97 2.97l-.04-.04a1.8 1.8 0 0 0-1.98-.36 1.8 1.8 0 0 0-1.09 1.65V21.3a2.1 2.1 0 0 1-4.2 0v-.06a1.8 1.8 0 0 0-1.09-1.65 1.8 1.8 0 0 0-1.98.36l-.04.04a2.1 2.1 0 0 1-2.97-2.97l.04-.04A1.8 1.8 0 0 0 3.84 15a1.8 1.8 0 0 0-1.65-1.09H2.1a2.1 2.1 0 0 1 0-4.2h.09a1.8 1.8 0 0 0 1.65-1.09 1.8 1.8 0 0 0-.36-1.98l-.04-.04a2.1 2.1 0 0 1 2.97-2.97l.04.04a1.8 1.8 0 0 0 1.98.36 1.8 1.8 0 0 0 1.09-1.65V2.1a2.1 2.1 0 0 1 4.2 0v.09a1.8 1.8 0 0 0 1.09 1.65 1.8 1.8 0 0 0 1.98-.36l.04-.04a2.1 2.1 0 0 1 2.97 2.97l-.04.04a1.8 1.8 0 0 0-.36 1.98 1.8 1.8 0 0 0 1.65 1.09h.06a2.1 2.1 0 0 1 0 4.2h-.06A1.8 1.8 0 0 0 19.4 15Z" />
+      </svg>
+    </button>
+    <button
+      class="back-to-top"
+      id="back-to-top"
+      type="button"
+      aria-label="回到顶部"
+      aria-hidden="true"
+      tabindex="-1"
+    >
+      <span class="back-to-top-icon" aria-hidden="true"></span>
+    </button>
+    <div class="sync-status" id="sync-status" aria-live="polite">本地模式</div>
+    <div class="admin-badge" id="admin-badge" hidden>管理中</div>
+    <div class="settings-menu" id="settings-menu" hidden>
+      <button class="settings-menu-title" id="open-settings" type="button">添加网站/分类</button>
+      <button class="settings-menu-item" id="theme-toggle" type="button">主题切换</button>
+      <button class="settings-menu-item" id="quick-add-toggle" type="button">一键添加</button>
+      <div class="settings-menu-line"></div>
+      <button class="settings-menu-item" id="logout-button" type="button">退出登录</button>
+    </div>
+    <div class="context-menu" id="context-menu" hidden>
+      <button
+        class="context-menu-item context-menu-move"
+        id="context-move"
+        type="button"
+        aria-haspopup="menu"
+        aria-expanded="false"
+        hidden
+      >
+        <span>移动</span>
+        <span class="context-menu-arrow" aria-hidden="true"></span>
+      </button>
+      <button class="context-menu-item" id="context-icon" type="button" hidden>编辑图标</button>
+      <button class="context-menu-item" id="context-rename" type="button" hidden>重命名</button>
+      <button class="context-menu-item is-danger" id="context-delete" type="button">删除</button>
+    </div>
+    <div class="context-submenu" id="context-move-menu" hidden></div>
+
+    <header
+      class="hero-panel page-section home-section"
+      id="section-home"
+      data-page-index="0"
+      aria-label="主页"
+    >
+      <div class="home-inner">
+        <div class="time-block" aria-label="当前时间">
+          <time class="clock" id="clock">18:00</time>
+          <div class="date-row">
+            <span id="solar-date">7月4日</span>
+            <span id="weekday">星期六</span>
+            <span id="lunar-date">五月二十</span>
+          </div>
+        </div>
+
+        <form class="search-shell" id="search-form" role="search">
+          <div class="engine-picker">
+            <button
+              class="engine-toggle"
+              id="engine-toggle"
+              type="button"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              aria-label="选择搜索引擎"
+            >
+              <img id="engine-icon" src="" alt="" />
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
+            <div class="engine-menu" id="engine-menu" role="listbox" aria-label="搜索引擎"></div>
+          </div>
+          <label class="search-input-wrap">
+            <span class="sr-only">搜索关键词</span>
+            <input
+              id="search-input"
+              type="search"
+              name="keyword"
+              autocomplete="off"
+              placeholder="搜索网页、文章、工具..."
+            />
+          </label>
+          <button class="search-submit" type="submit" aria-label="搜索">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.35-4.35" />
+              <circle cx="11" cy="11" r="7" />
+            </svg>
+          </button>
+        </form>
+
+        <section class="home-category" aria-label="主页网站">
+          <div class="home-widgets" aria-label="主页小组件">
+            <button
+              class="home-widget weather-widget"
+              id="weather-toggle"
+              type="button"
+              aria-label="打开天气详情"
+              aria-haspopup="dialog"
+              aria-controls="weather-modal"
+              aria-expanded="false"
+            >
+              <div class="widget-head">
+                <span id="weather-city">龙华</span>
+              </div>
+              <div class="weather-main">
+                <strong id="weather-temp">30°</strong>
+                <div class="weather-current">
+                  <span id="weather-text">多云</span>
+                  <img class="weather-current-icon" src="assets/weather-dense-cloud.svg" alt="" />
+                </div>
+              </div>
+              <div class="weather-range" id="weather-range">最低 28° 最高 33°</div>
+              <div class="weather-days" id="weather-days" aria-label="天气预报">
+                <span>明天<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~33</em></span>
+                <span>周二<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~30</em></span>
+                <span>周三<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~30</em></span>
+                <span>周四<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~31</em></span>
+                <span>周五<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~31</em></span>
+                <span>周六<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~33</em></span>
+              </div>
+            </button>
+
+            <button class="home-widget trends-widget" id="hot-trends-card" type="button" aria-label="打开百度热搜">
+              <ol class="trend-list">
+                <li><span>台风巴威风力持续减小 最新预测</span><em>780.9万</em></li>
+                <li><span>副局长买10亿Token手搓防汛APP</span><em>771.4万</em></li>
+                <li><span>防汛防台风 各部门这样部署</span><em>761.9万</em></li>
+                <li><span>新能源车平均年龄仅1.8年</span><em>752.0万</em></li>
+                <li><span>城市内涝 这些避险知识请牢记</span><em>741.5万</em></li>
+              </ol>
+            </button>
+
+            <button
+              class="home-widget calendar-widget"
+              id="calendar-toggle"
+              type="button"
+              aria-label="打开日历"
+              aria-haspopup="dialog"
+              aria-controls="calendar-modal"
+              aria-expanded="false"
+            >
+              <div class="calendar-month" id="widget-calendar-month">2026年7月</div>
+              <strong id="widget-calendar-day">12</strong>
+              <span id="widget-calendar-meta">第193天 第28周</span>
+              <p id="widget-calendar-lunar">五月廿八 周日</p>
+            </button>
+
+            <button
+              class="home-widget calculator-widget"
+              id="calculator-toggle"
+              type="button"
+              aria-label="打开计算器"
+              aria-haspopup="dialog"
+              aria-controls="calculator-modal"
+              aria-expanded="false"
+            >
+              <div class="calculator-display">0</div>
+              <div class="calculator-keys" aria-hidden="true">
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span class="calculator-operator" aria-label="除以">
+                  <img src="assets/calculator-divide.svg" alt="" />
+                </span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span class="calculator-operator" aria-label="乘以">
+                  <img src="assets/calculator-multiply.svg" alt="" />
+                </span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span class="calculator-operator" aria-label="等于">
+                  <img src="assets/calculator-equal.svg" alt="" />
+                </span>
+              </div>
+            </button>
+
+            <button
+              class="home-widget memo-widget"
+              id="memo-toggle"
+              type="button"
+              aria-label="打开备忘录"
+              aria-haspopup="dialog"
+              aria-controls="memo-modal"
+              aria-expanded="false"
+            >
+              <strong id="memo-widget-title">备忘录</strong>
+              <time id="memo-widget-time" datetime="">点击新建</time>
+              <p id="memo-widget-content"><span>还没有备忘录</span><span>点击这里开始记录</span></p>
+            </button>
+          </div>
+          <div class="card-row" id="home-card-row"></div>
+        </section>
+      </div>
+    </header>
+
+    <main class="content-shell">
+      <nav class="category-index" id="category-index" aria-label="分类索引"></nav>
+      <div id="category-sections"></div>
+    </main>
+
+    <div class="modal-backdrop" id="admin-modal" hidden>
+      <form class="admin-dialog" id="admin-form">
+        <div class="admin-dialog-head">
+          <h2>GitHub 编辑配置</h2>
+          <button class="admin-close" id="admin-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <label class="admin-field">
+          <span>数据仓库（公开浏览，无需 Token）</span>
+          <input id="admin-username" name="username" type="text" value="huoshiyinggong/banana-nav" readonly />
+        </label>
+        <label class="admin-field">
+          <span>编辑 Token（仅保存在当前浏览器）</span>
+          <input
+            id="admin-password"
+            name="password"
+            type="password"
+            autocomplete="off"
+          />
+        </label>
+        <p class="admin-message" id="admin-message" role="status"></p>
+        <p>仅需本仓库 Contents 读写权限。公开仓库不保存 Token 或私密备忘录。</p>
+        <button class="admin-submit" type="submit">启用本机编辑</button>
+        <button id="export-navigation" type="button">导出本地导航备份</button>
+      </form>
+    </div>
+
+    <div class="modal-backdrop" id="settings-modal" hidden>
+      <div class="settings-dialog" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+        <div class="settings-dialog-head">
+          <h2 id="settings-title">添加网站/分类</h2>
+          <button class="admin-close" id="settings-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="settings-dialog-body">
+          <div class="settings-tabs" role="tablist" aria-label="设置类型">
+            <button
+              class="settings-tab is-active"
+              id="site-tab"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              data-settings-tab="site"
+            >
+              添加网站
+            </button>
+            <button
+              class="settings-tab"
+              id="category-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-settings-tab="category"
+            >
+              添加分类
+            </button>
+          </div>
+
+          <form class="settings-form" id="site-form" data-settings-panel="site">
+            <label class="settings-field">
+              <span>网站名称</span>
+              <input id="site-name-input" type="text" placeholder="请输入网站名称" />
+            </label>
+            <label class="settings-field">
+              <span>网站链接</span>
+              <input id="site-url-input" type="text" inputmode="url" placeholder="https://" />
+            </label>
+            <label class="settings-field">
+              <span>所属分类</span>
+              <select id="site-category-input"></select>
+            </label>
+            <label class="settings-field">
+              <span>网站描述（可选）</span>
+              <textarea id="site-description-input" rows="3" placeholder="简短描述这个网站的用途"></textarea>
+            </label>
+            <p class="settings-message" id="site-message" role="status"></p>
+            <div class="settings-actions">
+              <button class="settings-cancel" type="button" data-settings-cancel>取消</button>
+              <button class="settings-confirm" type="submit">确认添加</button>
+            </div>
+          </form>
+
+          <form class="settings-form" id="category-form" data-settings-panel="category" hidden>
+            <label class="settings-field">
+              <span>分类名称</span>
+              <input id="category-name-input" type="text" placeholder="例如：新闻资讯" />
+            </label>
+            <p class="settings-message" id="category-message" role="status"></p>
+            <div class="settings-actions">
+              <button class="settings-cancel" type="button" data-settings-cancel>取消</button>
+              <button class="settings-confirm" type="submit">确认添加</button>
+            </div>
+          </form>
+
+          <form class="settings-form" id="wallpaper-form" data-settings-panel="theme" hidden>
+            <div class="theme-settings-section">
+              <div class="theme-settings-title">颜色模式</div>
+              <div class="theme-choice-group" role="group" aria-label="颜色模式">
+                <button class="theme-choice" type="button" data-theme-choice="light">
+                  <span class="theme-choice-swatch theme-choice-swatch-light" aria-hidden="true"></span>
+                  浅色
+                </button>
+                <button class="theme-choice" type="button" data-theme-choice="dark">
+                  <span class="theme-choice-swatch theme-choice-swatch-dark" aria-hidden="true"></span>
+                  深色
+                </button>
+              </div>
+            </div>
+            <div class="theme-settings-section">
+              <div class="theme-settings-title">壁纸</div>
+            </div>
+            <div class="wallpaper-preview" id="wallpaper-preview" aria-label="壁纸预览">
+              <span>当前壁纸预览</span>
+            </div>
+            <label class="settings-field">
+              <span>图片直链</span>
+              <input id="wallpaper-url-input" type="text" inputmode="url" placeholder="https://...jpg / png / webp" />
+            </label>
+            <label class="settings-field">
+              <span>上传本地图片</span>
+              <label class="wallpaper-upload">
+                <input id="wallpaper-file-input" type="file" accept="image/*" />
+                <span class="wallpaper-upload-button">选择图片</span>
+                <span class="wallpaper-upload-name" id="wallpaper-file-name">未选择图片</span>
+              </label>
+            </label>
+            <p class="settings-message" id="wallpaper-message" role="status"></p>
+            <div class="settings-actions">
+              <button class="settings-cancel" type="button" data-settings-cancel>取消</button>
+              <button class="settings-cancel" id="wallpaper-reset" type="button">恢复默认</button>
+              <button class="settings-confirm" type="submit">应用壁纸</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-backdrop" id="quick-add-modal" hidden>
+      <div class="settings-dialog quick-add-dialog" role="dialog" aria-modal="true" aria-labelledby="quick-add-title">
+        <div class="settings-dialog-head">
+          <h2 id="quick-add-title">一键添加</h2>
+          <button class="admin-close" id="quick-add-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="settings-dialog-body quick-add-dialog-body">
+          <div class="quick-add-row" aria-label="一键添加网站">
+            <a class="quick-add-link" id="quick-add-link" href="#">一键加入导航</a>
+            <button class="quick-add-copy" id="quick-add-copy" type="button">复制链接</button>
+          </div>
+          <p class="quick-add-tip">复制链接后，在浏览器书签栏右键选择“添加网页”，可以设置一键加入导航快捷方式。</p>
+          <p class="quick-add-message" id="quick-add-message" role="status"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-backdrop" id="delete-modal" hidden>
+      <div class="delete-dialog" role="dialog" aria-modal="true" aria-labelledby="delete-title">
+        <div class="delete-dialog-head">
+          <h2 id="delete-title">删除</h2>
+          <button class="admin-close" id="delete-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <p class="delete-message" id="delete-message"></p>
+        <div class="delete-actions">
+          <button class="delete-cancel" id="delete-cancel" type="button">取消</button>
+          <button class="delete-confirm" id="delete-confirm" type="button">确认删除</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-backdrop" id="rename-modal" hidden>
+      <form class="rename-dialog" id="rename-form">
+        <div class="rename-dialog-head">
+          <h2 id="rename-title">重命名分类</h2>
+          <button class="admin-close" id="rename-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <label class="rename-field">
+          <span>分类名称</span>
+          <input id="rename-input" type="text" autocomplete="off" />
+        </label>
+        <p class="rename-message" id="rename-message" role="status"></p>
+        <div class="rename-actions">
+          <button class="rename-cancel" id="rename-cancel" type="button">取消</button>
+          <button class="rename-confirm" id="rename-confirm" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal-backdrop" id="icon-modal" hidden>
+      <form class="icon-dialog" id="icon-form">
+        <div class="icon-dialog-head">
+          <h2 id="icon-title">编辑图标</h2>
+          <button class="admin-close" id="icon-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="icon-preview-row">
+          <span class="icon-preview-label">预览</span>
+          <span class="icon-preview-box">
+            <img id="icon-preview" src="assets/fallback-icon.svg" alt="" onerror="loadNextIconCandidate(this)" />
+          </span>
+        </div>
+        <label class="icon-field">
+          <span>网站名称</span>
+          <input id="icon-name-input" type="text" autocomplete="off" />
+        </label>
+        <label class="icon-field">
+          <span>网站网址</span>
+          <input id="icon-url-input" type="text" inputmode="url" autocomplete="off" />
+        </label>
+        <div class="icon-actions-row">
+          <button class="icon-secondary" id="icon-fetch" type="button">获取网站图标</button>
+          <label class="icon-upload">
+            <input id="icon-file-input" type="file" accept="image/*" />
+            <span>上传图标</span>
+          </label>
+        </div>
+        <p class="icon-message" id="icon-message" role="status"></p>
+        <div class="icon-actions">
+          <button class="icon-cancel" id="icon-cancel" type="button">取消</button>
+          <button class="icon-confirm" id="icon-confirm" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal-backdrop calendar-modal" id="calendar-modal" hidden>
+      <section class="calendar-dialog" role="dialog" aria-modal="true" aria-labelledby="calendar-title">
+        <header class="calendar-dialog-head">
+          <div>
+            <p>黄历日历</p>
+            <h2 id="calendar-title">2026年7月</h2>
+          </div>
+          <button class="admin-close" id="calendar-close" type="button" aria-label="关闭日历">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </header>
+        <div class="calendar-dialog-body">
+          <div class="calendar-navigation" aria-label="切换月份">
+            <button id="calendar-prev" type="button" aria-label="上个月">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7" /></svg>
+            </button>
+            <button id="calendar-next" type="button" aria-label="下个月">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7" /></svg>
+            </button>
+            <button class="calendar-today" id="calendar-today" type="button">回到今天</button>
+          </div>
+          <div class="calendar-content">
+            <div class="calendar-grid-wrap">
+              <div class="calendar-weekdays" aria-hidden="true">
+                <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+              </div>
+              <div class="calendar-days" id="calendar-days" role="grid" aria-label="日期"></div>
+            </div>
+            <aside class="calendar-detail" aria-live="polite">
+              <div class="calendar-detail-main">
+                <p class="calendar-detail-date" id="calendar-detail-date"></p>
+                <strong id="calendar-detail-lunar"></strong>
+                <p class="calendar-detail-festival" id="calendar-detail-festival"></p>
+              </div>
+              <div class="calendar-almanac" aria-label="黄历信息">
+                <div class="calendar-almanac-row">
+                  <span class="calendar-almanac-tag is-red">生肖</span>
+                  <span id="calendar-detail-zodiac"></span>
+                </div>
+                <div class="calendar-almanac-row">
+                  <span class="calendar-almanac-tag is-pink">星座</span>
+                  <span id="calendar-detail-constellation"></span>
+                </div>
+                <div class="calendar-almanac-row">
+                  <span class="calendar-almanac-tag is-blue">节日</span>
+                  <span id="calendar-detail-holiday"></span>
+                </div>
+                <div class="calendar-almanac-row">
+                  <span class="calendar-almanac-tag is-green">宜</span>
+                  <span id="calendar-detail-yi"></span>
+                </div>
+                <div class="calendar-almanac-row">
+                  <span class="calendar-almanac-tag is-red">忌</span>
+                  <span id="calendar-detail-ji"></span>
+                </div>
+                <div class="calendar-almanac-row is-compact">
+                  <span class="calendar-almanac-tag is-gray">月相</span>
+                  <span id="calendar-detail-phase"></span>
+                </div>
+                <div class="calendar-almanac-row is-compact">
+                  <span class="calendar-almanac-tag is-gray">物候</span>
+                  <span id="calendar-detail-pentad"></span>
+                </div>
+                <p class="calendar-almanac-directions" id="calendar-detail-directions"></p>
+              </div>
+            </aside>
+          </div>
+          <p class="calendar-source">节假日安排依据国务院办公厅 2026 年通知</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop weather-modal" id="weather-modal" hidden>
+      <section class="weather-dialog" role="dialog" aria-modal="true" aria-label="天气详情">
+        <header class="weather-dialog-head">
+          <p class="weather-dialog-summary">
+            <span id="weather-detail-location">广东省 · 龙华</span>
+            <span id="weather-detail-text">多云</span>
+            <span id="weather-detail-updated">刚刚更新</span>
+          </p>
+          <div class="weather-dialog-actions">
+            <button class="admin-close" id="weather-close" type="button" aria-label="关闭天气详情">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18 6 6 18M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </header>
+        <div class="weather-detail-body">
+          <section class="weather-detail-hero" aria-label="当前天气">
+            <div>
+              <div class="weather-detail-current">
+                <strong id="weather-detail-temp">--°</strong>
+                <img id="weather-detail-icon" src="assets/weather-dense-cloud.svg" alt="" />
+              </div>
+              <p class="weather-detail-advice" id="weather-detail-advice">天气数据加载中，请稍候。</p>
+            </div>
+            <dl class="weather-detail-metrics">
+              <div><dt>体感</dt><dd id="weather-detail-feels">--°</dd></div>
+              <div><dt>风力</dt><dd id="weather-detail-wind">--</dd></div>
+              <div><dt>湿度</dt><dd id="weather-detail-humidity">--</dd></div>
+              <div><dt>气压</dt><dd id="weather-detail-pressure">--</dd></div>
+              <div><dt>降水</dt><dd id="weather-detail-precip">--</dd></div>
+              <div><dt>日出 / 日落</dt><dd id="weather-detail-sun">--</dd></div>
+            </dl>
+          </section>
+          <section class="weather-detail-section" aria-label="24小时天气预报">
+            <h3>24小时天气预报</h3>
+            <div class="weather-hourly" id="weather-detail-hourly"></div>
+          </section>
+          <section class="weather-detail-section" aria-label="7天天气预报">
+            <h3>7天天气预报</h3>
+            <div class="weather-daily" id="weather-detail-daily"></div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop calculator-modal" id="calculator-modal" hidden>
+      <section class="calculator-dialog" role="dialog" aria-modal="true" aria-labelledby="calculator-title">
+        <header class="calculator-dialog-head">
+          <h2 id="calculator-title">计算器</h2>
+          <button class="admin-close" id="calculator-close" type="button" aria-label="关闭计算器">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </header>
+        <output class="calculator-result" id="calculator-result" aria-live="polite">0</output>
+        <div class="calculator-pad" aria-label="计算器按键">
+          <button class="calculator-pad-clear" type="button" data-calculator-action="clear">C</button>
+          <button type="button" data-calculator-action="backspace" aria-label="退格">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 7-5 5 5 5h10a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H9Zm3 3 4 4m0-4-4 4" /></svg>
+          </button>
+          <button type="button" data-calculator-action="percent" aria-label="百分号">%</button>
+          <button class="calculator-pad-operator" type="button" data-calculator-value="/" aria-label="除以">
+            <img src="assets/calculator-divide.svg" alt="" />
+          </button>
+          <button type="button" data-calculator-value="7">7</button>
+          <button type="button" data-calculator-value="8">8</button>
+          <button type="button" data-calculator-value="9">9</button>
+          <button class="calculator-pad-operator" type="button" data-calculator-value="*" aria-label="乘以">
+            <img src="assets/calculator-multiply.svg" alt="" />
+          </button>
+          <button type="button" data-calculator-value="4">4</button>
+          <button type="button" data-calculator-value="5">5</button>
+          <button type="button" data-calculator-value="6">6</button>
+          <button class="calculator-pad-operator" type="button" data-calculator-value="-">−</button>
+          <button type="button" data-calculator-value="1">1</button>
+          <button type="button" data-calculator-value="2">2</button>
+          <button type="button" data-calculator-value="3">3</button>
+          <button class="calculator-pad-operator" type="button" data-calculator-value="+">+</button>
+          <button class="calculator-pad-zero" type="button" data-calculator-value="0">0</button>
+          <button type="button" data-calculator-value=".">.</button>
+          <button class="calculator-pad-equals" type="button" data-calculator-action="equals" aria-label="等于">
+            <img src="assets/calculator-equal.svg" alt="" />
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop memo-modal" id="memo-modal" hidden>
+      <section class="memo-dialog" role="dialog" aria-modal="true" aria-labelledby="memo-title">
+        <header class="memo-dialog-head">
+          <h2 id="memo-title" class="sr-only">备忘录</h2>
+          <button class="memo-close-button" id="memo-close" type="button" aria-label="关闭备忘录">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          </button>
+        </header>
+        <div class="memo-dialog-body">
+          <aside class="memo-sidebar">
+            <div class="memo-sidebar-head">
+              <h3>备忘录</h3>
+            </div>
+            <input class="memo-search" id="memo-search" type="search" placeholder="search" aria-label="搜索备忘录" />
+            <p class="memo-status" id="memo-status" role="status"></p>
+            <div class="memo-list" id="memo-list" aria-live="polite"></div>
+            <button class="memo-new" id="memo-new" type="button" aria-label="新建备忘录">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </button>
+          </aside>
+          <form class="memo-editor" id="memo-form">
+            <label>
+              <span class="sr-only">标题</span>
+              <input class="memo-editor-title" id="memo-input-title" type="text" maxlength="48" placeholder="2026-07-16" autocomplete="off" />
+            </label>
+            <label>
+              <span class="sr-only">内容</span>
+              <textarea id="memo-input-content" rows="5" maxlength="1000" placeholder="请输入笔记内容"></textarea>
+            </label>
+            <div class="memo-editor-actions">
+              <span class="memo-editor-meta" id="memo-editor-meta"></span>
+              <span class="memo-save-status" id="memo-save-status" role="status"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script src="assets/lunar.js?v=1.7.7"></script>
+    <script src="github-store.js?v=20261123-1"></script>
+    <script src="script.js?v=20261123-github-1"></script>
+  </body>
+</html>

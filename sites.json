@@ -1,0 +1,1257 @@
+[
+  {
+    "title": "主页",
+    "sites": [
+      {
+        "description": "play.google.com",
+        "name": "Google Play",
+        "url": "https://play.google.com/store"
+      },
+      {
+        "description": "zhihu.com",
+        "name": "首页 - 知乎",
+        "url": "https://www.zhihu.com/"
+      },
+      {
+        "description": "figma.com",
+        "name": "Figma",
+        "url": "https://www.figma.com/files/recent"
+      },
+      {
+        "description": "flowus.cn",
+        "name": "主页",
+        "url": "https://flowus.cn/eff4eb19-85ab-4307-9d7b-47b179dbe872"
+      },
+      {
+        "description": "js.design",
+        "name": "即时设计",
+        "url": "https://js.design/workspace"
+      },
+      {
+        "description": "mail.qq.com",
+        "name": "登录QQ邮箱",
+        "url": "https://mail.qq.com/"
+      },
+      {
+        "description": "",
+        "name": "小红书",
+        "url": "https://www.xiaohongshu.com/explore"
+      },
+      {
+        "description": "github.com",
+        "name": "GitHub: Let’s build from here · GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "description": "notion.so",
+        "name": "(1) 主页",
+        "url": "https://www.notion.so/f2de20f446d44243a4b6a3c8362bfa42"
+      },
+      {
+        "description": "forum-zh.obsidian.md",
+        "name": "Obsidian 中文论坛 - Obsidian 知识管理 笔记",
+        "url": "https://forum-zh.obsidian.md/"
+      },
+      {
+        "description": "pixso.cn",
+        "name": "最近打开-Pixso",
+        "url": "https://pixso.cn/app/recent"
+      },
+      {
+        "description": "daohang-daohang-d8gwjtleca5373256.webapps.tcloudbase.com",
+        "name": "一页导航",
+        "url": "https://daohang-daohang-d8gwjtleca5373256.webapps.tcloudbase.com/"
+      }
+    ]
+  },
+  {
+    "sites": [
+      {
+        "description": "iqiyi.com",
+        "name": "爱奇艺-在线视频网站-海量正版高清视频在线观看",
+        "url": "https://www.iqiyi.com/"
+      },
+      {
+        "description": "v.qq.com",
+        "name": "腾讯视频 - 中国领先的在线视频媒体平台,海量高清视频在线观看",
+        "url": "https://v.qq.com/"
+      },
+      {
+        "description": "youtube.com",
+        "name": "YouTube",
+        "url": "https://www.youtube.com/"
+      },
+      {
+        "description": "bilibili.com",
+        "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+        "url": "https://www.bilibili.com/"
+      },
+      {
+        "description": "douyin.com",
+        "name": "抖音-记录美好生活",
+        "url": "https://www.douyin.com/"
+      },
+      {
+        "description": "",
+        "name": "可可影视",
+        "url": "https://www.xn--wcv59z.com/"
+      }
+    ],
+    "title": "影视"
+  },
+  {
+    "sites": [
+      {
+        "description": "play.google.com",
+        "name": "Google Play",
+        "url": "https://play.google.com/store"
+      },
+      {
+        "description": "zhihu.com",
+        "name": "首页 - 知乎",
+        "url": "https://www.zhihu.com/"
+      },
+      {
+        "description": "figma.com",
+        "name": "Figma",
+        "url": "https://www.figma.com/files/recent"
+      },
+      {
+        "description": "flowus.cn",
+        "name": "主页",
+        "url": "https://flowus.cn/eff4eb19-85ab-4307-9d7b-47b179dbe872"
+      },
+      {
+        "description": "js.design",
+        "name": "即时设计",
+        "url": "https://js.design/workspace"
+      },
+      {
+        "description": "mail.qq.com",
+        "name": "登录QQ邮箱",
+        "url": "https://mail.qq.com/"
+      },
+      {
+        "description": "",
+        "name": "小红书",
+        "url": "https://www.xiaohongshu.com/explore"
+      },
+      {
+        "description": "github.com",
+        "name": "GitHub: Let’s build from here · GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "description": "notion.so",
+        "name": "(1) 主页",
+        "url": "https://www.notion.so/f2de20f446d44243a4b6a3c8362bfa42"
+      },
+      {
+        "description": "forum-zh.obsidian.md",
+        "name": "Obsidian 中文论坛 - Obsidian 知识管理 笔记",
+        "url": "https://forum-zh.obsidian.md/"
+      },
+      {
+        "description": "pixso.cn",
+        "name": "最近打开-Pixso",
+        "url": "https://pixso.cn/app/recent"
+      },
+      {
+        "description": "daohang-daohang-d8gwjtleca5373256.webapps.tcloudbase.com",
+        "name": "一页导航",
+        "url": "https://daohang-daohang-d8gwjtleca5373256.webapps.tcloudbase.com/"
+      }
+    ],
+    "title": "常用"
+  },
+  {
+    "sites": [
+      {
+        "description": "chat.openai.com",
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/auth/login?next=%2Fchat"
+      },
+      {
+        "description": "midjourney.com",
+        "name": "Midjourney Showcase",
+        "url": "https://www.midjourney.com/showcase/recent/"
+      },
+      {
+        "description": "civitai.com",
+        "name": "Civitai | Stable Diffusion models, e",
+        "url": "https://civitai.com/"
+      },
+      {
+        "description": "discord.com",
+        "name": "Discord | #常规 | wwwzsl的服务器",
+        "url": "https://discord.com/channels/1088389824823689277/1088389825293463612"
+      },
+      {
+        "description": "moonvy.com",
+        "name": "OPS 提示词工作室",
+        "url": "https://moonvy.com/apps/ops/"
+      },
+      {
+        "description": "liblib.art",
+        "name": "LiblibAI·哩布哩布AI - 中国领先的AI创作平台",
+        "url": "https://www.liblib.art/"
+      },
+      {
+        "description": "kimi.moonshot.cn",
+        "name": "Kimi.ai - 帮你看更大的世界",
+        "url": "https://kimi.moonshot.cn/chat/cnek0gkudu6bco335010"
+      },
+      {
+        "description": "bailian.console.aliyun.com",
+        "name": "大模型服务平台百炼控制台",
+        "url": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/detail"
+      },
+      {
+        "description": "gemini.google.com",
+        "name": "Google Gemini",
+        "url": "https://gemini.google.com/app"
+      },
+      {
+        "description": "ai.qihuiai.com",
+        "name": "MX绘画中文站",
+        "url": "https://ai.qihuiai.com/home/#/ai/nano_banana"
+      },
+      {
+        "description": "doubao.com",
+        "name": "豆包 - 字节跳动旗下 AI 智能助手",
+        "url": "https://www.doubao.com/chat/"
+      },
+      {
+        "description": "jimeng.jianying.com",
+        "name": "即梦AI - 一站式AI创作平台",
+        "url": "https://jimeng.jianying.com/ai-tool/generate"
+      },
+      {
+        "description": "deepseek.com",
+        "name": "DeepSeek - 探索未至之境",
+        "url": "https://www.deepseek.com/"
+      },
+      {
+        "description": "platform.xiaomimimo.com",
+        "name": "Xiaomi MiMo 开放平台",
+        "url": "https://platform.xiaomimimo.com/console/plan-manage"
+      },
+      {
+        "description": "platform.agnes-ai.com",
+        "name": "Agnes",
+        "url": "https://platform.agnes-ai.com/settings/apiKeys"
+      },
+      {
+        "description": "jojocode.com",
+        "name": "JOJO Code 聚合",
+        "url": "https://jojocode.com/pricing"
+      },
+      {
+        "description": "xn--vduyey89e.com",
+        "name": "空悲切 API",
+        "url": "https://xn--vduyey89e.com/console/topup"
+      }
+    ],
+    "title": "AI"
+  },
+  {
+    "sites": [
+      {
+        "description": "artstation.com",
+        "name": "ArtStation",
+        "url": "https://www.artstation.com/"
+      },
+      {
+        "description": "behance.net",
+        "name": "Behance :: 为您呈现",
+        "url": "https://www.behance.net/"
+      },
+      {
+        "description": "ui.cn",
+        "name": "UI中国-专业用户体验设计平台",
+        "url": "https://www.ui.cn/"
+      },
+      {
+        "description": "pinterest.com",
+        "name": "Pinterest",
+        "url": "https://www.pinterest.com/"
+      },
+      {
+        "description": "zcool.com.cn",
+        "name": "站酷 (ZCOOL)",
+        "url": "https://www.zcool.com.cn/"
+      },
+      {
+        "description": "huaban.com",
+        "name": "花瓣",
+        "url": "https://huaban.com/"
+      },
+      {
+        "description": "dribbble.com",
+        "name": "Dribbble",
+        "url": "https://dribbble.com/"
+      },
+      {
+        "description": "uisdc.com",
+        "name": "优设网 - UISDC",
+        "url": "https://www.uisdc.com/"
+      },
+      {
+        "description": "cn.365psd.com",
+        "name": "Free PSD",
+        "url": "https://cn.365psd.com/"
+      },
+      {
+        "description": "zhisheji.com",
+        "name": "致设计-百万电商设计师交流平台,我们是电商设计师,不是淘宝美工",
+        "url": "http://www.zhisheji.com/"
+      },
+      {
+        "description": "sj33.cn",
+        "name": "设计之家 - 传播先进设计理念 推动原创设计发展",
+        "url": "http://www.sj33.cn/"
+      },
+      {
+        "description": "reeoo.com",
+        "name": "Reeoo",
+        "url": "http://reeoo.com/"
+      },
+      {
+        "description": "uigreat.com",
+        "name": "优阁网(UIGREAT) - UI设计师学习交流社区",
+        "url": "https://www.uigreat.com/"
+      },
+      {
+        "description": "pixeden.com",
+        "name": "Premium",
+        "url": "https://www.pixeden.com/"
+      },
+      {
+        "description": "inspirationde.com",
+        "name": "Inspirationde",
+        "url": "https://www.inspirationde.com/"
+      },
+      {
+        "description": "theinspirationgrid.com",
+        "name": "Daily design",
+        "url": "https://theinspirationgrid.com/"
+      },
+      {
+        "description": "shejidaren.com",
+        "name": "设计达人 | 爱设计，爱分享。",
+        "url": "http://www.shejidaren.com/"
+      },
+      {
+        "description": "abduzeedo.com",
+        "name": "Abduzeedo",
+        "url": "https://abduzeedo.com/"
+      },
+      {
+        "description": "lapa.ninja",
+        "name": "2270 Landing",
+        "url": "https://www.lapa.ninja/"
+      },
+      {
+        "description": "designspiration.com",
+        "name": "Designspiration",
+        "url": "https://www.designspiration.com/"
+      },
+      {
+        "description": "muuuuu.org",
+        "name": "縦長のwebデザ=",
+        "url": "https://muuuuu.org/"
+      },
+      {
+        "description": "klart.io",
+        "name": "Pixels",
+        "url": "https://klart.io/pixels?ref=shejidaren.com"
+      },
+      {
+        "description": "logopond.com",
+        "name": "Logopond - Logo",
+        "url": "https://logopond.com/"
+      },
+      {
+        "description": "meiye.art",
+        "name": "美叶-为设计师提供有价值的设计参考",
+        "url": "https://www.meiye.art/"
+      }
+    ],
+    "title": "灵感"
+  },
+  {
+    "sites": [
+      {
+        "description": "588ku.com",
+        "name": "千库网_免费png图片背景素材下载,做设计不抠图",
+        "url": "https://588ku.com/"
+      },
+      {
+        "description": "freepik.com",
+        "name": "Free Vectors",
+        "url": "https://www.freepik.com/"
+      },
+      {
+        "description": "cn.365psd.com",
+        "name": "Free PSD",
+        "url": "https://cn.365psd.com/"
+      },
+      {
+        "description": "lanrentuku.com",
+        "name": "懒人图库 - 矢量图",
+        "url": "http://www.lanrentuku.com/"
+      },
+      {
+        "description": "58pic.com",
+        "name": "千图网-专注正版图库的设计网站-设计图片素材网",
+        "url": "https://www.58pic.com/"
+      },
+      {
+        "description": "ibaotu.com",
+        "name": "包图网_专注原创商用设计图片下载，会员免费设计素材模板独家图库",
+        "url": "https://ibaotu.com/"
+      },
+      {
+        "description": "90sheji.com",
+        "name": "90设计网，电商设计模板 PNG素材 背景图免费下载网站",
+        "url": "http://90sheji.com/"
+      },
+      {
+        "description": "brusheezy.com",
+        "name": "Free Photoshop",
+        "url": "https://www.brusheezy.com/"
+      },
+      {
+        "description": "toptal.com",
+        "name": "Subtle Patterns",
+        "url": "https://www.toptal.com/designers/subtlepatterns/"
+      },
+      {
+        "description": "mockupworld.co",
+        "name": "样机下载",
+        "url": "https://www.mockupworld.co/"
+      },
+      {
+        "description": "miankoutupian.com",
+        "name": "免抠图片网|免抠素材|透明背景图片|免费图片素材|png图片|透明背景素材|设计素材",
+        "url": "https://miankoutupian.com/"
+      }
+    ],
+    "title": "素材"
+  },
+  {
+    "sites": [
+      {
+        "description": "ui.cn",
+        "name": "UI中国-专业用户体验设计平台",
+        "url": "https://www.ui.cn/"
+      },
+      {
+        "description": "dribbble.com",
+        "name": "Dribbble",
+        "url": "https://dribbble.com/"
+      },
+      {
+        "description": "ui.cn",
+        "name": "AE表达式实现逼真弹性动画-UI中国-专业用户体验设计平台",
+        "url": "https://www.ui.cn/detail/57720.html"
+      },
+      {
+        "description": "cn.365psd.com",
+        "name": "Free PSD",
+        "url": "https://cn.365psd.com/"
+      },
+      {
+        "description": "reeoo.com",
+        "name": "Reeoo",
+        "url": "http://reeoo.com/"
+      },
+      {
+        "description": "uigreat.com",
+        "name": "优阁网(UIGREAT) - UI设计师学习交流社区",
+        "url": "https://www.uigreat.com/"
+      },
+      {
+        "description": "pixeden.com",
+        "name": "Premium",
+        "url": "https://www.pixeden.com/"
+      },
+      {
+        "description": "lapa.ninja",
+        "name": "2270",
+        "url": "https://www.lapa.ninja/"
+      },
+      {
+        "description": "klart.io",
+        "name": "Pixels",
+        "url": "https://klart.io/pixels?ref=shejidaren.com"
+      },
+      {
+        "description": "tob.design",
+        "name": "Tob Design",
+        "url": "http://tob.design/#/home/"
+      },
+      {
+        "description": "figmachina.com",
+        "name": "Figma 中文网，学习 Figma 从这里开始",
+        "url": "https://figmachina.com/"
+      },
+      {
+        "description": "figma.cool",
+        "name": "Figma.Cool",
+        "url": "https://figma.cool/#Figma%20%E4%B8%AD%E6%96%87%E8%AE%A1%E5%88%92"
+      },
+      {
+        "description": "387099.blogspot.com",
+        "name": "浅谈部分机场",
+        "url": "http://387099.blogspot.com/2018/03/ssssr.html"
+      },
+      {
+        "description": "axureux.com",
+        "name": "模板首页",
+        "url": "https://www.axureux.com/demo/Templates022/#c=1&g=1&p=%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5"
+      },
+      {
+        "description": "preview.pro.ant.design",
+        "name": "分析页 - Ant Design Pro",
+        "url": "https://preview.pro.ant.design/dashboard/analysis/"
+      },
+      {
+        "description": "antv.vision",
+        "name": "AntV | 蚂蚁数据可视化",
+        "url": "https://antv.vision/zh"
+      },
+      {
+        "description": "tdesign.tencent.com",
+        "name": "TDesign Starter",
+        "url": "https://tdesign.tencent.com/starter/vue/dashboard/base#/dashboard/base"
+      },
+      {
+        "description": "preview.pro.ant.design",
+        "name": "分析页 - Ant Design Pro",
+        "url": "https://preview.pro.ant.design/dashboard/analysis/"
+      },
+      {
+        "description": "antdv.com",
+        "name": "定制主题 - Ant Design Vue",
+        "url": "https://www.antdv.com/docs/vue/customize-theme-cn/"
+      },
+      {
+        "description": "tdesign.tencent.com",
+        "name": "TDesign - 开源的企业级设计体系",
+        "url": "https://tdesign.tencent.com/"
+      },
+      {
+        "description": "demo.eleadmin.com",
+        "name": "工作台 - Ele Admin",
+        "url": "https://demo.eleadmin.com/dashboard/workplace"
+      }
+    ],
+    "title": "UI"
+  },
+  {
+    "sites": [
+      {
+        "description": "iconfont.cn",
+        "name": "Iconfont-阿里巴巴矢量图标库",
+        "url": "https://www.iconfont.cn/"
+      },
+      {
+        "description": "iconpark.bytedance.com",
+        "name": "ByteDance IconPark",
+        "url": "https://iconpark.bytedance.com/official"
+      },
+      {
+        "description": "iconfinder.com",
+        "name": "vector icons",
+        "url": "https://www.iconfinder.com/"
+      },
+      {
+        "description": "logoeps.com",
+        "name": "logoEPS.com",
+        "url": "https://logoeps.com/"
+      },
+      {
+        "description": "thenounproject.com",
+        "name": "Free Icons",
+        "url": "https://thenounproject.com/"
+      },
+      {
+        "description": "iconduck.com",
+        "name": "免费的开源图标、插图、表情符号和图形 - Iconduck",
+        "url": "https://iconduck.com/"
+      },
+      {
+        "description": "iconscout.com",
+        "name": "Download 3D",
+        "url": "https://iconscout.com/3ds"
+      },
+      {
+        "description": "igoutu.cn",
+        "name": "免费的图标、剪贴画插图、照片和音乐",
+        "url": "https://igoutu.cn/"
+      },
+      {
+        "description": "d.design",
+        "name": "堆友—3D在线编辑器，0门槛堆出无限创意，免费下载，免费使用",
+        "url": "https://d.design/"
+      },
+      {
+        "description": "",
+        "name": "blush",
+        "url": "https://amigos.blush.design/"
+      },
+      {
+        "description": "",
+        "name": "preview",
+        "url": "https://products.ls.graphics/zwosh/preview.html#download"
+      },
+      {
+        "description": "",
+        "name": "yaay",
+        "url": "https://www.ls.graphics/products/yaay"
+      },
+      {
+        "description": "",
+        "name": "opendoodles",
+        "url": "https://www.opendoodles.com/?ref=prototyprio"
+      }
+    ],
+    "title": "图标"
+  },
+  {
+    "sites": [
+      {
+        "description": "shejidaren.com",
+        "name": "在线配色",
+        "url": "http://www.shejidaren.com/examples/tools/color-scheme/"
+      },
+      {
+        "description": "color.adobe.com",
+        "name": "Adobe Color",
+        "url": "https://color.adobe.com/zh/create/color-wheel/"
+      },
+      {
+        "description": "paletton.com",
+        "name": "Paletton",
+        "url": "http://paletton.com/#uid=73m0u0kp+TueCX1kHVdvEQNMjGg"
+      },
+      {
+        "description": "cssgradient.io",
+        "name": "CSS Gradient",
+        "url": "https://cssgradient.io/"
+      },
+      {
+        "description": "uigradients.com",
+        "name": "uiGradients",
+        "url": "https://uigradients.com/#MoonlitAsteroid"
+      },
+      {
+        "description": "color.uisdc.com",
+        "name": "配好的颜色",
+        "url": "https://color.uisdc.com/"
+      },
+      {
+        "description": "huaban.com",
+        "name": "设计配色",
+        "url": "https://huaban.com/explore/shejipeise/?md=bdwzshejidaren"
+      },
+      {
+        "description": "colorhunt.co",
+        "name": "Color Hunt",
+        "url": "https://colorhunt.co/"
+      },
+      {
+        "description": "webgradients.com",
+        "name": "渐变色",
+        "url": "https://webgradients.com/"
+      },
+      {
+        "description": "material.io",
+        "name": "颜色系统 - 材料设计",
+        "url": "https://material.io/design/color/the-color-system.html#tools-for-picking-colors"
+      },
+      {
+        "description": "colors.eva.design",
+        "name": "Eva Design System: Deep learning color generator",
+        "url": "https://colors.eva.design/"
+      },
+      {
+        "description": "arco.design",
+        "name": "Arco Color Palette",
+        "url": "https://arco.design/palette/list"
+      },
+      {
+        "description": "goodpalette.io",
+        "name": "Goodpalette - Get Beautiful Color Palettes for UI Design",
+        "url": "https://goodpalette.io/00a870-e038c4-afbdb8"
+      },
+      {
+        "description": "m2.material.io",
+        "name": "The color system - Material Design",
+        "url": "https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors"
+      }
+    ],
+    "title": "配色"
+  },
+  {
+    "sites": [
+      {
+        "description": "tinypng.com",
+        "name": "图片压缩",
+        "url": "https://tinypng.com/#914"
+      },
+      {
+        "description": "imagecompressor.com",
+        "name": "图片压缩",
+        "url": "https://imagecompressor.com/zh/"
+      },
+      {
+        "description": "imgchr.com",
+        "name": "图床",
+        "url": "https://imgchr.com/"
+      },
+      {
+        "description": "naotu.baidu.com",
+        "name": "百度脑图 - 便捷的思维工具",
+        "url": "https://naotu.baidu.com/#928"
+      },
+      {
+        "description": "cli.im",
+        "name": "草料二维码生成器",
+        "url": "https://cli.im/"
+      },
+      {
+        "description": "chuangkit.com",
+        "name": "创客贴",
+        "url": "https://www.chuangkit.com/?dontjump=1"
+      },
+      {
+        "description": "convertio.co",
+        "name": "MP4 转换器在线",
+        "url": "https://convertio.co/zh/mp4-converter/"
+      },
+      {
+        "description": "bigjpg.com",
+        "name": "Bigjpg - AI人工智能图片无损放大",
+        "url": "https://bigjpg.com/"
+      },
+      {
+        "description": "jiumodiary.com",
+        "name": "鸠摩搜索",
+        "url": "https://www.jiumodiary.com/"
+      },
+      {
+        "description": "wordart.com",
+        "name": "文字按图形排版",
+        "url": "https://wordart.com/"
+      },
+      {
+        "description": "smallpdf.com",
+        "name": "Smallpdf.com",
+        "url": "https://smallpdf.com/"
+      },
+      {
+        "description": "icon.wuruihong.com",
+        "name": "在线图标切图",
+        "url": "https://icon.wuruihong.com/"
+      },
+      {
+        "description": "pdfkz.com",
+        "name": "免费PDF转WORD",
+        "url": "https://www.pdfkz.com/"
+      },
+      {
+        "description": "docsmall.com",
+        "name": "在线GIF动图压缩",
+        "url": "https://docsmall.com/gif-compress"
+      },
+      {
+        "description": "ezgif.com",
+        "name": "Animated GIF",
+        "url": "https://ezgif.com/"
+      },
+      {
+        "description": "ilovepdf.com",
+        "name": "iLovePDF |",
+        "url": "https://www.ilovepdf.com/"
+      },
+      {
+        "description": "tools.pdf24.org",
+        "name": "PDF24 Tools: 免费且易于使用的在线PDF工具",
+        "url": "https://tools.pdf24.org/zh/"
+      },
+      {
+        "description": "pslkzs.com",
+        "name": "灰大私活报价器",
+        "url": "https://www.pslkzs.com/price/index.php"
+      },
+      {
+        "description": "ai-toolbox.codefuture.top",
+        "name": "AI帮个忙 | 多功能AI小帮手",
+        "url": "https://ai-toolbox.codefuture.top/"
+      },
+      {
+        "description": "arc.tencent.com",
+        "name": "ARC官网-腾讯",
+        "url": "https://arc.tencent.com/zh/ai-demos/faceRestoration"
+      },
+      {
+        "description": "remove.bg",
+        "name": "在线抠图软件_图片去除背景 | remove.bg – remove.bg",
+        "url": "https://www.remove.bg/zh/upload"
+      },
+      {
+        "description": "vectorizer.ai",
+        "name": "转适量图",
+        "url": "https://vectorizer.ai/"
+      },
+      {
+        "description": "tool.browser.qq.com",
+        "name": "帮小忙，腾讯QQ浏览器在线工具箱平台-壁纸中心",
+        "url": "https://tool.browser.qq.com/category/wp_hot#/list"
+      },
+      {
+        "description": "msdn.itellyou.cn",
+        "name": "MSDN, 我告诉你 - 做一个安静的工具站",
+        "url": "https://msdn.itellyou.cn/"
+      },
+      {
+        "description": "xclient.info",
+        "name": "精品MAC应用分享",
+        "url": "https://xclient.info/"
+      },
+      {
+        "description": "macappbox.com",
+        "name": "mac软件下载-分享优质mac软件游戏下载-苹果软件盒子",
+        "url": "https://www.macappbox.com/"
+      },
+      {
+        "description": "cn.onenotegem.com",
+        "name": "OneNote 各平台各版本下载大全 - 数字笔记珍宝 OneNoteGem",
+        "url": "https://cn.onenotegem.com/a/others/onenote-download.html"
+      },
+      {
+        "description": "allhistory.com",
+        "name": "全历史",
+        "url": "https://www.allhistory.com/"
+      },
+      {
+        "description": "apkpure.com",
+        "name": "APKPure - 免费APK下载 | 最新最全手机应用游戏下载",
+        "url": "https://apkpure.com/cn/"
+      },
+      {
+        "description": "huajiakeji.com",
+        "name": "Chrome插件(谷歌浏览器插件) - 提供Chrome商店中优秀的Chrome插件推荐与下载服务",
+        "url": "https://huajiakeji.com/"
+      },
+      {
+        "description": "larkcommunity.feishu.cn",
+        "name": "龙虾，飞书文档",
+        "url": "https://larkcommunity.feishu.cn/wiki/GGJPwJ2IfiTynVk2Vy4cZbRvn2f"
+      }
+    ],
+    "title": "工具"
+  },
+  {
+    "sites": [
+      {
+        "description": "ziticq.com",
+        "name": "字体传奇网",
+        "url": "http://www.ziticq.com/"
+      },
+      {
+        "description": "qiuziti.com",
+        "name": "字体下载",
+        "url": "http://www.qiuziti.com/"
+      },
+      {
+        "description": "huaban.com",
+        "name": "中文字体设计",
+        "url": "https://huaban.com/boards/13553099/?md=bdwzshejidaren"
+      },
+      {
+        "description": "shejidaren.com",
+        "name": "书法字体在线工具",
+        "url": "http://www.shejidaren.com/examples/tools/shu-fa-zi-ti/index.html"
+      },
+      {
+        "description": "diyiziti.com",
+        "name": "书法第一字体网",
+        "url": "http://www.diyiziti.com/"
+      },
+      {
+        "description": "uisdc.com",
+        "name": "活泼而高端且不俗套的中文字体",
+        "url": "https://www.uisdc.com/refined-elegant-chinese-fonts"
+      },
+      {
+        "description": "3312345.com",
+        "name": "毛笔字体在线生成",
+        "url": "http://www.3312345.com/?char=%E6%9D%83&page=1"
+      },
+      {
+        "description": "qt86.com",
+        "name": "艺术字体在线生成器",
+        "url": "https://www.qt86.com/"
+      },
+      {
+        "description": "epinv.com",
+        "name": "书法字体在线转换",
+        "url": "http://www.epinv.com/shufa/"
+      },
+      {
+        "description": "akuziti.com",
+        "name": "毛笔书法字体在线转换",
+        "url": "http://www.akuziti.com/mb/"
+      },
+      {
+        "description": "huaban.com",
+        "name": "英文字体设计",
+        "url": "https://huaban.com/boards/13553202/?md=bdwzshejidaren"
+      },
+      {
+        "description": "urbanfonts.com",
+        "name": "Urban Fonts",
+        "url": "https://www.urbanfonts.com/"
+      },
+      {
+        "description": "ziti.cndesign.com",
+        "name": "中国字体设计网",
+        "url": "http://ziti.cndesign.com/"
+      },
+      {
+        "description": "dafont.com",
+        "name": "DaFont - Download fonts",
+        "url": "https://www.dafont.com/"
+      },
+      {
+        "description": "fontsquirrel.com",
+        "name": "Free Fonts!",
+        "url": "https://www.fontsquirrel.com/"
+      },
+      {
+        "description": "fontfabric.com",
+        "name": "Fontfabric™ — We design fonts",
+        "url": "https://www.fontfabric.com/"
+      },
+      {
+        "description": "thetype.com",
+        "name": "The Type",
+        "url": "https://thetype.com/"
+      },
+      {
+        "description": "hellofont.cn",
+        "name": "[字由] 设计师必备字体利器",
+        "url": "http://www.hellofont.cn/"
+      },
+      {
+        "description": "fonts.net.cn",
+        "name": "字体天下",
+        "url": "http://www.fonts.net.cn/"
+      },
+      {
+        "description": "shida66.com",
+        "name": "字体设计视频教程_第2页_视达网在线教育培训",
+        "url": "https://shida66.com/2-0-0-0-0-0-0-0-2.html"
+      },
+      {
+        "description": "shufami.com",
+        "name": "在线书法字典_王羲之书法字典下载_中国书法字典网_书法迷",
+        "url": "http://www.shufami.com/?char=%E9%A3%8E%E4%BA%91%E5%86%8D%E8%B5%B7&font=%E8%A1%8C%E4%B9%A6&fp=0-12-2-0&fs=128&fm=1&ff=000000&fb=ffffff"
+      },
+      {
+        "description": "googlefonts.cn",
+        "name": "谷歌字体中文版",
+        "url": "http://www.googlefonts.cn/"
+      },
+      {
+        "description": "ziticq.com",
+        "name": "字得方缘的主页-字体传奇网（ZITICQ）",
+        "url": "http://www.ziticq.com/maggie/index/works/p/1"
+      },
+      {
+        "description": "shimo.im",
+        "name": "免费可商用中文字体整理",
+        "url": "https://shimo.im/tables/QkqtpY6H6VypDdyQ?table=yd1IkJqLzvQ&%25252525253Bview=kfwCfFfPUwH&view=kfwCfFfPUwH#/"
+      }
+    ],
+    "title": "字体"
+  },
+  {
+    "sites": [
+      {
+        "description": "gracg.com",
+        "name": "涂鸦王国",
+        "url": "https://www.gracg.com/"
+      },
+      {
+        "description": "pixiv.net",
+        "name": "[pixiv]",
+        "url": "https://www.pixiv.net/"
+      },
+      {
+        "description": "artstation.com",
+        "name": "ArtStation",
+        "url": "https://www.artstation.com/"
+      },
+      {
+        "description": "cgsociety.org",
+        "name": "CGSociety",
+        "url": "https://cgsociety.org/"
+      },
+      {
+        "description": "metmuseum.org",
+        "name": "Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/"
+      },
+      {
+        "description": "i.hxsd.tv",
+        "name": "火星社区",
+        "url": "http://i.hxsd.tv/"
+      },
+      {
+        "description": "uiiiuiii.com",
+        "name": "插画 - 优优教程网",
+        "url": "https://uiiiuiii.com/?s=%E6%8F%92%E7%94%BB"
+      },
+      {
+        "description": "uiiiuiii.com",
+        "name": "PS手绘知识树！",
+        "url": "https://uiiiuiii.com/draw/12129014.html"
+      },
+      {
+        "description": "deviantart.com",
+        "name": "DeviantArt",
+        "url": "https://www.deviantart.com/?offset=0"
+      },
+      {
+        "description": "uisdc.com",
+        "name": "必备手绘插画教程神器",
+        "url": "https://www.uisdc.com/9-illustration-tutorial-web"
+      },
+      {
+        "description": "folioart.co.uk",
+        "name": "Folio illustration",
+        "url": "https://folioart.co.uk/"
+      },
+      {
+        "description": "poolga.com",
+        "name": "Poolga. iPhone",
+        "url": "http://poolga.com/"
+      }
+    ],
+    "title": "插画"
+  },
+  {
+    "sites": [
+      {
+        "description": "699pic.com",
+        "name": "摄影图片",
+        "url": "http://699pic.com/best.html"
+      },
+      {
+        "description": "unsplash.com",
+        "name": "Beautiful Free Images",
+        "url": "https://unsplash.com/"
+      },
+      {
+        "description": "cn.freeimages.com",
+        "name": "免费素材和免版税图像",
+        "url": "https://cn.freeimages.com/"
+      },
+      {
+        "description": "imgur.com",
+        "name": "Imgur: The magic of the Internet",
+        "url": "https://imgur.com/"
+      },
+      {
+        "description": "pexels.com",
+        "name": "Free stock photos · Pexels",
+        "url": "https://www.pexels.com/"
+      },
+      {
+        "description": "designerspics.com",
+        "name": "DesignersPics",
+        "url": "http://www.designerspics.com/"
+      },
+      {
+        "description": "pixabay.com",
+        "name": "Pixabay",
+        "url": "https://pixabay.com/"
+      },
+      {
+        "description": "wall.alphacoders.com",
+        "name": "Wallpaper Abyss - 高清壁纸, 桌面背景",
+        "url": "https://wall.alphacoders.com/?lang=Chinese"
+      },
+      {
+        "description": "splitshire.com",
+        "name": "Free Stock Photos - SplitShire",
+        "url": "https://www.splitshire.com/"
+      },
+      {
+        "description": "lifeofpix.com",
+        "name": "Life of Pix",
+        "url": "https://www.lifeofpix.com/"
+      },
+      {
+        "description": "stocksnap.io",
+        "name": "StockSnap.io",
+        "url": "https://stocksnap.io/"
+      },
+      {
+        "description": "commons.wikimedia.org",
+        "name": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/Main_Page"
+      },
+      {
+        "description": "freerangestock.com",
+        "name": "Freerange Stock",
+        "url": "https://freerangestock.com/"
+      }
+    ],
+    "title": "图库"
+  },
+  {
+    "sites": [
+      {
+        "description": "h.shanse8.com",
+        "name": "中文汉化|专业汉化网站 - www.shanse8.com",
+        "url": "http://h.shanse8.com/"
+      },
+      {
+        "description": "spdiy.com",
+        "name": "视频DIY-免版权视频素材、AE模板、设计素材、FCPX视频音乐音效免费分享平台",
+        "url": "https://www.spdiy.com/"
+      },
+      {
+        "description": "renrensucai.com",
+        "name": "人人素材网|专业CG素材与教程分享网站",
+        "url": "http://www.renrensucai.com/"
+      },
+      {
+        "description": "qinxue.com",
+        "name": "影视后期制作视频教程|影视动画培训课程 - 勤学网",
+        "url": "http://www.qinxue.com/yingshihouqi/?sysref=aejc"
+      },
+      {
+        "description": "cgown.com",
+        "name": "AE插件After Effects软件插件汉化免费下载 | CG资源网",
+        "url": "https://www.cgown.com/ae/ae-plugin?mytag=19"
+      },
+      {
+        "description": "mp.weixin.qq.com",
+        "name": "视频剪辑的三十个经验技巧 让你轻松应对各种剪辑难关",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjE3MzUyMg==&mid=401836761&idx=1&sn=621361bf3e923286985315ccbd9326b4&scene=23&srcid=0107zF3rWwy4zyK1R7gPVn6e#rd"
+      },
+      {
+        "description": "fox-studio.net",
+        "name": "狐狸影视城 | 为梦想执着，因分享快乐",
+        "url": "https://fox-studio.net/"
+      },
+      {
+        "description": "study.163.com",
+        "name": "C4D快速入门及模型实例教程（全中文录制） - 网易云课堂",
+        "url": "https://study.163.com/course/introduction.htm?courseId=536001#/courseDetail"
+      },
+      {
+        "description": "vfxdownload.com",
+        "name": "Free After Effects",
+        "url": "https://vfxdownload.com/"
+      },
+      {
+        "description": "newcger.com",
+        "name": "新CG儿 - 数字视觉分享平台 | AE模板_视频素材_免费下载",
+        "url": "https://www.newcger.com/"
+      },
+      {
+        "description": "zf3d.com",
+        "name": "朱峰社区:十六年专注教程研发",
+        "url": "https://www.zf3d.com/"
+      },
+      {
+        "description": "yiihuu.com",
+        "name": "翼狐网（翼虎网）-学设计，上翼狐！",
+        "url": "https://www.yiihuu.com/"
+      },
+      {
+        "description": "linecg.com",
+        "name": "直线网_专业的设计学习交流平台",
+        "url": "https://www.linecg.com/"
+      },
+      {
+        "description": "howzhi.com",
+        "name": "首页 - 好知网-重拾学习乐趣-Powered By Howzhi",
+        "url": "http://www.howzhi.com/"
+      },
+      {
+        "description": "lookae.com",
+        "name": "LookAE.com-大众脸影视后期特效",
+        "url": "https://www.lookae.com/"
+      },
+      {
+        "description": "c4dsky.com",
+        "name": "C4DSKY|书生 AE模板 FCPX插件 CG教程 CG插件 CG软件 CG素材 CG论坛 免费下载",
+        "url": "https://c4dsky.com/"
+      }
+    ],
+    "title": "AE"
+  },
+  {
+    "sites": [
+      {
+        "description": "xclient.info",
+        "name": "精品MAC应用分享",
+        "url": "https://xclient.info/"
+      },
+      {
+        "description": "macappbox.com",
+        "name": "mac软件推荐_分享优质mac软件游戏_苹果软件盒子",
+        "url": "https://www.macappbox.com/"
+      },
+      {
+        "description": "cn.onenotegem.com",
+        "name": "OneNote 各版本",
+        "url": "http://cn.onenotegem.com/a/others/onenote-download.html"
+      },
+      {
+        "description": "allhistory.com",
+        "name": "全历史",
+        "url": "https://www.allhistory.com/"
+      },
+      {
+        "description": "apkpure.com",
+        "name": "APK下载器",
+        "url": "https://apkpure.com/cn/"
+      },
+      {
+        "description": "chromecj.com",
+        "name": "Chrome插件",
+        "url": "http://chromecj.com/"
+      },
+      {
+        "description": "msdn.itellyou.cn",
+        "name": "MSDN, 我告诉你 - 做一个安静的工具站",
+        "url": "https://msdn.itellyou.cn/"
+      },
+      {
+        "description": "yun.hei521.cn",
+        "name": "天翼小站",
+        "url": "https://yun.hei521.cn/"
+      },
+      {
+        "description": "hao.shejidaren.com",
+        "name": "设计导航",
+        "url": "http://hao.shejidaren.com/index.html"
+      },
+      {
+        "description": "hao.uisdc.com",
+        "name": "优设导航",
+        "url": "https://hao.uisdc.com/"
+      }
+    ],
+    "title": "其他"
+  }
+]
