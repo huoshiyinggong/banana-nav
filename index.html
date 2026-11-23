@@ -9,7 +9,7 @@
     />
     <title>香蕉导航</title>
     <link rel="icon" type="image/svg+xml" href="assets/app-logo.svg?v=20260710-banana-quick-add" />
-    <link rel="stylesheet" href="styles.css?v=20261123-github-1" />
+    <link rel="stylesheet" href="styles.css?v=20261123-widgets-1" />
   </head>
   <body>
     <button class="settings-button" id="admin-toggle" type="button" aria-label="管理员登录">
@@ -119,33 +119,25 @@
             >
               <div class="widget-head">
                 <span id="weather-city">龙华</span>
+                <time id="weather-feed-status" class="widget-feed-status">天气加载中</time>
               </div>
               <div class="weather-main">
-                <strong id="weather-temp">30°</strong>
+                <strong id="weather-temp">—</strong>
                 <div class="weather-current">
-                  <span id="weather-text">多云</span>
+                  <span id="weather-text">加载中</span>
                   <img class="weather-current-icon" src="assets/weather-dense-cloud.svg" alt="" />
                 </div>
               </div>
-              <div class="weather-range" id="weather-range">最低 28° 最高 33°</div>
+              <div class="weather-range" id="weather-range">等待天气更新</div>
               <div class="weather-days" id="weather-days" aria-label="天气预报">
-                <span>明天<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~33</em></span>
-                <span>周二<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~30</em></span>
-                <span>周三<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~30</em></span>
-                <span>周四<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~31</em></span>
-                <span>周五<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~31</em></span>
-                <span>周六<img class="weather-day-icon" src="assets/weather-dense-cloud.svg" alt="" /><em>26~33</em></span>
               </div>
             </button>
 
             <button class="home-widget trends-widget" id="hot-trends-card" type="button" aria-label="打开百度热搜">
               <ol class="trend-list">
-                <li><span>台风巴威风力持续减小 最新预测</span><em>780.9万</em></li>
-                <li><span>副局长买10亿Token手搓防汛APP</span><em>771.4万</em></li>
-                <li><span>防汛防台风 各部门这样部署</span><em>761.9万</em></li>
-                <li><span>新能源车平均年龄仅1.8年</span><em>752.0万</em></li>
-                <li><span>城市内涝 这些避险知识请牢记</span><em>741.5万</em></li>
+                <li><span>热搜加载中…</span></li>
               </ol>
+              <time id="hot-feed-status" class="widget-feed-status">等待更新</time>
             </button>
 
             <button
@@ -543,6 +535,7 @@
             <span id="weather-detail-location">广东省 · 龙华</span>
             <span id="weather-detail-text">多云</span>
             <span id="weather-detail-updated">刚刚更新</span>
+            <a class="weather-attribution" href="https://www.qweather.com/" target="_blank" rel="noopener noreferrer">和风天气</a>
           </p>
           <div class="weather-dialog-actions">
             <button class="admin-close" id="weather-close" type="button" aria-label="关闭天气详情">
@@ -665,6 +658,7 @@
 
     <script src="assets/lunar.js?v=1.7.7"></script>
     <script src="github-store.js?v=20261123-1"></script>
-    <script src="script.js?v=20261123-github-1"></script>
+    <script src="widget-feeds.js?v=20261123-1"></script>
+    <script src="script.js?v=20261123-widgets-1"></script>
   </body>
 </html>

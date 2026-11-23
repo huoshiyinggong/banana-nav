@@ -904,7 +904,7 @@ function renderWeatherDetail(weather) {
             </div>`;
           })
           .join("")
-      : `<p class="weather-detail-empty">小时预报会在天气函数部署后显示。</p>`;
+      : `<p class="weather-detail-empty">暂未获取小时预报。</p>`;
   }
 
   const daily = getWeatherDailyItems(weather);
@@ -964,23 +964,8 @@ function renderWeatherWidget(weather) {
 }
 
 async function loadWeatherWidget() {
-  try {
-    const response = await fetch(weatherApiUrl, {
-      headers: {
-        Accept: "application/json",
-      },
-    });
-    const payload = await response.json();
-    if (payload?.code === 0 && payload.data) {
-      renderWeatherWidget(payload.data);
-      return payload.data;
-    } else if (payload?.message) {
-      console.warn("天气数据加载失败：", payload.message);
-    }
-  } catch (error) {
-    console.warn("天气数据加载失败：", error);
-  }
-  return null;
+  await refreshWidgetFeeds();
+  return latestWeatherData;
 }
 
 async function openWeatherModal() {
@@ -988,7 +973,7 @@ async function openWeatherModal() {
   weatherModal.hidden = false;
   weatherToggle.setAttribute("aria-expanded", "true");
   if (latestWeatherData) renderWeatherDetail(latestWeatherData);
-  else await loadWeatherWidget();
+  await loadWeatherWidget();
   weatherClose.focus();
 }
 
@@ -3560,7 +3545,6 @@ applyWallpaper(getSavedWallpaper());
 setEngine(currentEngine);
 updateQuickAddLink();
 setAdminMode(false);
-applyTrendCardItems(hotSearchItems);
 setActiveCategoryIndex(0);
 updateDateTime();
 setInterval(updateDateTime, 30 * 1000);
@@ -3572,6 +3556,7 @@ async function bootstrap() {
     clearBookmarkParams();
   }
   await loadSections();
+  refreshWidgetFeeds();
   try {
     sections = await window.githubNavigation.load();
     ensureHomeSection();
@@ -3584,13 +3569,6 @@ async function bootstrap() {
     setSyncStatus(`${error.message}；显示本地缓存`, "warn");
   }
   // This distribution intentionally makes no CloudBase requests.
-  weatherToggle.disabled = true;
-  weatherCity.textContent = "天气未接入";
-  weatherTemp.textContent = "—";
-  weatherText.textContent = "GitHub 独立版";
-  weatherRange.textContent = "未连接天气服务";
-  weatherDays.innerHTML = "";
-  document.querySelector("#hot-trends-card .trend-list").innerHTML = "<li>查看百度实时热搜 →</li>";
   document.querySelector("#memo-toggle").disabled = true;
   document.querySelector("#memo-widget-title").textContent = "备忘录未迁移";
   document.querySelector("#memo-widget-time").textContent = "保护隐私，不公开同步";

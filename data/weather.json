@@ -1,0 +1,8 @@
+{
+  "source": "和风天气",
+  "status": "unconfigured",
+  "fetchedAt": null,
+  "lastAttemptAt": "2026-11-23T15:49:59.721Z",
+  "data": null,
+  "error": "天气尚未配置 GitHub Secret"
+}

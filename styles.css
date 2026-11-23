@@ -200,6 +200,7 @@ body[data-page-direction="down"] .page-section.is-active {
 
 .weather-widget,
 .trends-widget {
+  position: relative;
   padding: 16px;
   color: rgba(255, 255, 255, 0.92);
   background: #343740;
@@ -242,6 +243,7 @@ body[data-page-direction="down"] .page-section.is-active {
   position: absolute;
   top: 16px;
   left: 16px;
+  right: 16px;
   z-index: 1;
   line-height: 18px;
 }
@@ -640,7 +642,7 @@ body[data-page-direction="down"] .page-section.is-active {
 
 .trend-list {
   display: grid;
-  gap: 7px;
+  gap: 4px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -677,6 +679,24 @@ body[data-page-direction="down"] .page-section.is-active {
   color: rgba(255, 255, 255, 0.9);
   font-style: normal;
   white-space: nowrap;
+}
+
+.widget-feed-status {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.trends-widget > .widget-feed-status {
+  position: absolute;
+  right: 16px;
+  bottom: 7px;
+}
+
+.weather-attribution {
+  color: inherit;
+  font-size: 11px;
 }
 
 .calendar-widget,
