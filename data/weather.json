@@ -1,23 +1,23 @@
 {
   "source": "和风天气",
   "status": "ok",
-  "fetchedAt": "2026-11-24T02:37:30.371Z",
-  "lastAttemptAt": "2026-11-24T02:37:30.371Z",
+  "fetchedAt": "2026-11-24T12:56:26.178Z",
+  "lastAttemptAt": "2026-11-24T12:56:26.178Z",
   "data": {
     "city": "龙华",
     "province": "广东省",
     "locationName": "广东省 · 龙华",
     "current": {
-      "temp": "19",
-      "feelsLike": "17",
+      "temp": "17",
+      "feelsLike": "14",
       "text": "多云",
-      "icon": "101",
-      "obsTime": "2026-11-24T10:25+08:00",
+      "icon": "151",
+      "obsTime": "2026-11-24T20:37+08:00",
       "windDir": "东北风",
-      "windScale": "4",
-      "windSpeed": "28",
-      "humidity": "78",
-      "precip": "0.3",
+      "windScale": "5",
+      "windSpeed": "34",
+      "humidity": "63",
+      "precip": "0.0",
       "pressure": "1016",
       "vis": "30",
       "cloud": "99",
@@ -25,21 +25,21 @@
     },
     "range": {
       "min": "16",
-      "max": "21"
+      "max": "20"
     },
     "daily": [
       {
         "date": "2026-11-24",
         "label": "今天",
-        "text": "多云",
-        "icon": "101",
+        "text": "阵雨",
+        "icon": "300",
         "tempMin": "16",
-        "tempMax": "21",
+        "tempMax": "20",
         "sunrise": "06:42",
         "sunset": "17:38",
-        "humidity": "49",
+        "humidity": "47",
         "precip": "2.5",
-        "pressure": "1014",
+        "pressure": "1013",
         "uvIndex": "1"
       },
       {
@@ -48,10 +48,10 @@
         "text": "多云",
         "icon": "101",
         "tempMin": "15",
-        "tempMax": "20",
+        "tempMax": "22",
         "sunrise": "06:43",
         "sunset": "17:38",
-        "humidity": "64",
+        "humidity": "65",
         "precip": "0.0",
         "pressure": "1012",
         "uvIndex": "2"
@@ -59,28 +59,28 @@
       {
         "date": "2026-11-26",
         "label": "周四",
-        "text": "多云",
-        "icon": "101",
+        "text": "晴",
+        "icon": "100",
         "tempMin": "16",
         "tempMax": "24",
         "sunrise": "06:43",
         "sunset": "17:38",
-        "humidity": "74",
+        "humidity": "73",
         "precip": "0.0",
         "pressure": "1010",
-        "uvIndex": "1"
+        "uvIndex": "5"
       },
       {
         "date": "2026-11-27",
         "label": "周五",
         "text": "多云",
         "icon": "101",
-        "tempMin": "20",
+        "tempMin": "17",
         "tempMax": "25",
         "sunrise": "06:44",
         "sunset": "17:38",
-        "humidity": "77",
-        "precip": "4.6",
+        "humidity": "75",
+        "precip": "0.0",
         "pressure": "1012",
         "uvIndex": "4"
       },
@@ -89,25 +89,25 @@
         "label": "周六",
         "text": "多云",
         "icon": "101",
-        "tempMin": "17",
+        "tempMin": "15",
         "tempMax": "25",
         "sunrise": "06:45",
         "sunset": "17:38",
-        "humidity": "59",
+        "humidity": "57",
         "precip": "0.0",
         "pressure": "1015",
-        "uvIndex": "4"
+        "uvIndex": "3"
       },
       {
         "date": "2026-11-29",
         "label": "周日",
         "text": "多云",
         "icon": "101",
-        "tempMin": "16",
-        "tempMax": "26",
+        "tempMin": "15",
+        "tempMax": "23",
         "sunrise": "06:45",
         "sunset": "17:38",
-        "humidity": "73",
+        "humidity": "70",
         "precip": "0.0",
         "pressure": "1014",
         "uvIndex": "4"
@@ -117,12 +117,12 @@
         "label": "周一",
         "text": "多云",
         "icon": "101",
-        "tempMin": "16",
-        "tempMax": "25",
+        "tempMin": "17",
+        "tempMax": "23",
         "sunrise": "06:46",
         "sunset": "17:38",
         "humidity": "78",
-        "precip": "0.6",
+        "precip": "0.0",
         "pressure": "1012",
         "uvIndex": "4"
       }
@@ -134,10 +134,10 @@
         "text": "多云",
         "icon": "101",
         "tempMin": "15",
-        "tempMax": "20",
+        "tempMax": "22",
         "sunrise": "06:43",
         "sunset": "17:38",
-        "humidity": "64",
+        "humidity": "65",
         "precip": "0.0",
         "pressure": "1012",
         "uvIndex": "2"
@@ -145,28 +145,28 @@
       {
         "date": "2026-11-26",
         "label": "周四",
-        "text": "多云",
-        "icon": "101",
+        "text": "晴",
+        "icon": "100",
         "tempMin": "16",
         "tempMax": "24",
         "sunrise": "06:43",
         "sunset": "17:38",
-        "humidity": "74",
+        "humidity": "73",
         "precip": "0.0",
         "pressure": "1010",
-        "uvIndex": "1"
+        "uvIndex": "5"
       },
       {
         "date": "2026-11-27",
         "label": "周五",
         "text": "多云",
         "icon": "101",
-        "tempMin": "20",
+        "tempMin": "17",
         "tempMax": "25",
         "sunrise": "06:44",
         "sunset": "17:38",
-        "humidity": "77",
-        "precip": "4.6",
+        "humidity": "75",
+        "precip": "0.0",
         "pressure": "1012",
         "uvIndex": "4"
       },
@@ -175,25 +175,25 @@
         "label": "周六",
         "text": "多云",
         "icon": "101",
-        "tempMin": "17",
+        "tempMin": "15",
         "tempMax": "25",
         "sunrise": "06:45",
         "sunset": "17:38",
-        "humidity": "59",
+        "humidity": "57",
         "precip": "0.0",
         "pressure": "1015",
-        "uvIndex": "4"
+        "uvIndex": "3"
       },
       {
         "date": "2026-11-29",
         "label": "周日",
         "text": "多云",
         "icon": "101",
-        "tempMin": "16",
-        "tempMax": "26",
+        "tempMin": "15",
+        "tempMax": "23",
         "sunrise": "06:45",
         "sunset": "17:38",
-        "humidity": "73",
+        "humidity": "70",
         "precip": "0.0",
         "pressure": "1014",
         "uvIndex": "4"
@@ -203,88 +203,28 @@
         "label": "周一",
         "text": "多云",
         "icon": "101",
-        "tempMin": "16",
-        "tempMax": "25",
+        "tempMin": "17",
+        "tempMax": "23",
         "sunrise": "06:46",
         "sunset": "17:38",
         "humidity": "78",
-        "precip": "0.6",
+        "precip": "0.0",
         "pressure": "1012",
         "uvIndex": "4"
       }
     ],
     "hourly": [
       {
-        "fxTime": "2026-11-24T11:00+08:00",
-        "temp": "18",
-        "icon": "101",
-        "text": "多云"
-      },
-      {
-        "fxTime": "2026-11-24T12:00+08:00",
-        "temp": "19",
-        "icon": "101",
-        "text": "多云"
-      },
-      {
-        "fxTime": "2026-11-24T13:00+08:00",
-        "temp": "19",
-        "icon": "101",
-        "text": "多云"
-      },
-      {
-        "fxTime": "2026-11-24T14:00+08:00",
-        "temp": "20",
-        "icon": "101",
-        "text": "多云"
-      },
-      {
-        "fxTime": "2026-11-24T15:00+08:00",
-        "temp": "21",
-        "icon": "101",
-        "text": "多云"
-      },
-      {
-        "fxTime": "2026-11-24T16:00+08:00",
-        "temp": "20",
-        "icon": "100",
-        "text": "晴"
-      },
-      {
-        "fxTime": "2026-11-24T17:00+08:00",
-        "temp": "20",
-        "icon": "100",
-        "text": "晴"
-      },
-      {
-        "fxTime": "2026-11-24T18:00+08:00",
-        "temp": "19",
-        "icon": "150",
-        "text": "晴"
-      },
-      {
-        "fxTime": "2026-11-24T19:00+08:00",
-        "temp": "19",
-        "icon": "150",
-        "text": "晴"
-      },
-      {
-        "fxTime": "2026-11-24T20:00+08:00",
-        "temp": "18",
-        "icon": "150",
-        "text": "晴"
-      },
-      {
         "fxTime": "2026-11-24T21:00+08:00",
         "temp": "18",
-        "icon": "150",
-        "text": "晴"
+        "icon": "151",
+        "text": "多云"
       },
       {
         "fxTime": "2026-11-24T22:00+08:00",
         "temp": "18",
-        "icon": "150",
-        "text": "晴"
+        "icon": "151",
+        "text": "多云"
       },
       {
         "fxTime": "2026-11-24T23:00+08:00",
@@ -295,12 +235,12 @@
       {
         "fxTime": "2026-11-25T00:00+08:00",
         "temp": "18",
-        "icon": "150",
-        "text": "晴"
+        "icon": "151",
+        "text": "多云"
       },
       {
         "fxTime": "2026-11-25T01:00+08:00",
-        "temp": "17",
+        "temp": "18",
         "icon": "151",
         "text": "多云"
       },
@@ -318,13 +258,13 @@
       },
       {
         "fxTime": "2026-11-25T04:00+08:00",
-        "temp": "16",
+        "temp": "17",
         "icon": "151",
         "text": "多云"
       },
       {
         "fxTime": "2026-11-25T05:00+08:00",
-        "temp": "16",
+        "temp": "17",
         "icon": "151",
         "text": "多云"
       },
@@ -336,30 +276,90 @@
       },
       {
         "fxTime": "2026-11-25T07:00+08:00",
-        "temp": "18",
+        "temp": "17",
         "icon": "101",
         "text": "多云"
       },
       {
         "fxTime": "2026-11-25T08:00+08:00",
-        "temp": "18",
+        "temp": "17",
         "icon": "101",
         "text": "多云"
       },
       {
         "fxTime": "2026-11-25T09:00+08:00",
-        "temp": "18",
+        "temp": "17",
         "icon": "101",
         "text": "多云"
       },
       {
         "fxTime": "2026-11-25T10:00+08:00",
+        "temp": "17",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T11:00+08:00",
+        "temp": "22",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T12:00+08:00",
+        "temp": "21",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T13:00+08:00",
+        "temp": "21",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T14:00+08:00",
+        "temp": "21",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T15:00+08:00",
+        "temp": "20",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T16:00+08:00",
+        "temp": "20",
+        "icon": "101",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T17:00+08:00",
         "temp": "19",
         "icon": "101",
         "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T18:00+08:00",
+        "temp": "19",
+        "icon": "151",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T19:00+08:00",
+        "temp": "19",
+        "icon": "151",
+        "text": "多云"
+      },
+      {
+        "fxTime": "2026-11-25T20:00+08:00",
+        "temp": "19",
+        "icon": "151",
+        "text": "多云"
       }
     ],
-    "updateTime": "2026-11-24T10:34+08:00",
+    "updateTime": "2026-11-24T20:54+08:00",
     "refer": {
       "sources": [
         "QWeather"
