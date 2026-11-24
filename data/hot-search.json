@@ -1,58 +1,58 @@
 {
   "source": "百度热搜",
   "status": "ok",
-  "fetchedAt": "2026-11-24T12:56:26.178Z",
-  "lastAttemptAt": "2026-11-24T12:56:26.178Z",
+  "fetchedAt": "2026-11-24T22:52:16.202Z",
+  "lastAttemptAt": "2026-11-24T22:52:16.202Z",
   "data": [
     {
       "title": "上海市委书记陈吉宁被查",
       "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E9%99%88%E5%90%89%E5%AE%81%E8%A2%AB%E6%9F%A5&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7809774"
+      "metric": "7808496"
     },
     {
-      "title": "课堂上的“嘉豪、嘉欣” 已不敢举手",
-      "url": "https://www.baidu.com/s?wd=%E8%AF%BE%E5%A0%82%E4%B8%8A%E7%9A%84%E2%80%9C%E5%98%89%E8%B1%AA%E3%80%81%E5%98%89%E6%AC%A3%E2%80%9D+%E5%B7%B2%E4%B8%8D%E6%95%A2%E4%B8%BE%E6%89%8B&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7711873"
+      "title": "陈吉宁被查 上海表态",
+      "url": "https://www.baidu.com/s?wd=%E9%99%88%E5%90%89%E5%AE%81%E8%A2%AB%E6%9F%A5+%E4%B8%8A%E6%B5%B7%E8%A1%A8%E6%80%81&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7713778"
     },
     {
       "title": "中国人登月又近一步",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%99%BB%E6%9C%88%E5%8F%88%E8%BF%91%E4%B8%80%E6%AD%A5&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7618884"
+      "metric": "7616659"
     },
     {
-      "title": "国产可口可乐不再标生产日期",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E4%BA%A7%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90%E4%B8%8D%E5%86%8D%E6%A0%87%E7%94%9F%E4%BA%A7%E6%97%A5%E6%9C%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7521813"
+      "title": "年产1500万根的“棍子” 卖出10亿元",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E4%BA%A71500%E4%B8%87%E6%A0%B9%E7%9A%84%E2%80%9C%E6%A3%8D%E5%AD%90%E2%80%9D+%E5%8D%96%E5%87%BA10%E4%BA%BF%E5%85%83&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7522784"
+    },
+    {
+      "title": "19楼落地窗底部装无限位外凸窗",
+      "url": "https://www.baidu.com/s?wd=19%E6%A5%BC%E8%90%BD%E5%9C%B0%E7%AA%97%E5%BA%95%E9%83%A8%E8%A3%85%E6%97%A0%E9%99%90%E4%BD%8D%E5%A4%96%E5%87%B8%E7%AA%97&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7424417"
+    },
+    {
+      "title": "特朗普对一道中国菜念念不忘",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%AF%B9%E4%B8%80%E9%81%93%E4%B8%AD%E5%9B%BD%E8%8F%9C%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7332575"
     },
     {
       "title": "外交部回应“黄仁勋重回英伟达”",
       "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E2%80%9C%E9%BB%84%E4%BB%81%E5%8B%8B%E9%87%8D%E5%9B%9E%E8%8B%B1%E4%BC%9F%E8%BE%BE%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7426261"
+      "metric": "7233536"
     },
     {
-      "title": "新娘提1341次分手新郎回1342次不行",
-      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E5%A8%98%E6%8F%901341%E6%AC%A1%E5%88%86%E6%89%8B%E6%96%B0%E9%83%8E%E5%9B%9E1342%E6%AC%A1%E4%B8%8D%E8%A1%8C&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7332193"
+      "title": "东北的洗浴已经这么卷了吗",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E5%8C%97%E7%9A%84%E6%B4%97%E6%B5%B4%E5%B7%B2%E7%BB%8F%E8%BF%99%E4%B9%88%E5%8D%B7%E4%BA%86%E5%90%97&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7135712"
     },
     {
-      "title": "旺仔牛奶更不好卖了",
-      "url": "https://www.baidu.com/s?wd=%E6%97%BA%E4%BB%94%E7%89%9B%E5%A5%B6%E6%9B%B4%E4%B8%8D%E5%A5%BD%E5%8D%96%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7231768"
+      "title": "注水长剧的“狼”来了",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%A8%E6%B0%B4%E9%95%BF%E5%89%A7%E7%9A%84%E2%80%9C%E7%8B%BC%E2%80%9D%E6%9D%A5%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7045990"
     },
     {
-      "title": "受贿1.13亿余元！吴胜华被判无期",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%97%E8%B4%BF1.13%E4%BA%BF%E4%BD%99%E5%85%83%EF%BC%81%E5%90%B4%E8%83%9C%E5%8D%8E%E8%A2%AB%E5%88%A4%E6%97%A0%E6%9C%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7139129"
-    },
-    {
-      "title": "“假洋牌”Swisse卖爆了",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%81%87%E6%B4%8B%E7%89%8C%E2%80%9DSwisse%E5%8D%96%E7%88%86%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7047682"
-    },
-    {
-      "title": "黄奕用AI视频还原过去三十年人生",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E5%A5%95%E7%94%A8AI%E8%A7%86%E9%A2%91%E8%BF%98%E5%8E%9F%E8%BF%87%E5%8E%BB%E4%B8%89%E5%8D%81%E5%B9%B4%E4%BA%BA%E7%94%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6949484"
+      "title": "飞机与“超级月亮”浪漫同框",
+      "url": "https://www.baidu.com/s?wd=%E9%A3%9E%E6%9C%BA%E4%B8%8E%E2%80%9C%E8%B6%85%E7%BA%A7%E6%9C%88%E4%BA%AE%E2%80%9D%E6%B5%AA%E6%BC%AB%E5%90%8C%E6%A1%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "6943365"
     }
   ]
 }
