@@ -263,6 +263,12 @@
         "icon": "https://a.favicon.im/api.wuyinkeji.com?larger=true",
         "name": "数据概览 - 速创API用户控制台",
         "url": "https://api.wuyinkeji.com/user/"
+      },
+      {
+        "name": "声音分离",
+        "url": "https://vocalremover.org/zh/splitter-ai",
+        "description": "",
+        "icon": "https://a.favicon.im/vocalremover.org?larger=true"
       }
     ],
     "title": "AI"
