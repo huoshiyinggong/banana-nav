@@ -1,8 +1,8 @@
 {
   "source": "百度热搜",
-  "status": "ok",
+  "status": "error",
   "fetchedAt": "2026-11-26T05:29:01.672Z",
-  "lastAttemptAt": "2026-11-26T05:29:01.672Z",
+  "lastAttemptAt": "2026-11-26T15:40:25.119Z",
   "data": [
     {
       "title": "人民日报评“遇事就举报”",
@@ -54,5 +54,6 @@
       "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E7%BB%B4%E5%98%89%E5%9B%9E%E5%BA%94%E8%BF%BD%E6%98%9F%E7%8E%8B%E8%8F%B2&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
       "metric": "6951006"
     }
-  ]
+  ],
+  "error": "数据源更新失败，保留上次成功数据"
 }
