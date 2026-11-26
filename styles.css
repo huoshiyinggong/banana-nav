@@ -707,14 +707,16 @@ body[data-page-direction="down"] .page-section.is-active {
 }
 
 .calendar-widget {
-  display: block;
+  display: grid;
+  grid-template-rows: 40px 62px 18px 18px;
+  align-content: start;
   width: 100%;
   min-height: 150px;
-  padding: 0;
+  padding: 0 0 12px;
   border: 0;
   border-radius: 20px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #ff5365 0 40px, #ffffff 40px);
+  background: #ffffff;
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
@@ -733,11 +735,11 @@ body[data-page-direction="down"] .page-section.is-active {
   margin: 0;
   place-items: center;
   color: #ffffff;
-  background: transparent;
+  background: #ff5365;
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
-  transform: translateY(-4px);
+  transform: none;
 }
 
 .calendar-widget strong {
@@ -3647,6 +3649,20 @@ body[data-theme="dark"] .modal-backdrop {
   background-color: rgba(255, 255, 255, 0.88);
   -webkit-backdrop-filter: blur(18px) saturate(160%);
   backdrop-filter: blur(18px) saturate(160%);
+}
+
+/* Keep the calendar's red header and white body on solid, separate layers. */
+.calendar-widget {
+  border: 0;
+  background: #ffffff;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+body:not([data-theme="dark"]) .calendar-dialog {
+  background: #ffffff;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 }
 
 .weather-widget,
