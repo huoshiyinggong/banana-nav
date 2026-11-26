@@ -3665,6 +3665,13 @@ body:not([data-theme="dark"]) .calendar-dialog {
   backdrop-filter: none;
 }
 
+body .calculator-widget,
+body .calculator-dialog {
+  background: #ffffff;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
 .weather-widget,
 .trends-widget {
   background-color: rgba(52, 55, 64, 0.9);
