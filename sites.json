@@ -269,6 +269,12 @@
         "url": "https://vocalremover.org/zh/splitter-ai",
         "description": "",
         "icon": "https://a.favicon.im/vocalremover.org?larger=true"
+      },
+      {
+        "name": "Zmodel",
+        "url": "https://model.aihubkit.com/usage-logs/common",
+        "description": "",
+        "icon": "https://a.favicon.im/model.aihubkit.com?larger=true"
       }
     ],
     "title": "AI"
