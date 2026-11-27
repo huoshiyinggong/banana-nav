@@ -1,59 +1,58 @@
 {
   "source": "百度热搜",
-  "status": "error",
-  "fetchedAt": "2026-11-26T05:29:01.672Z",
-  "lastAttemptAt": "2026-11-27T08:01:05.561Z",
+  "status": "ok",
+  "fetchedAt": "2026-11-27T16:08:59.886Z",
+  "lastAttemptAt": "2026-11-27T16:08:59.886Z",
   "data": [
     {
-      "title": "人民日报评“遇事就举报”",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E2%80%9C%E9%81%87%E4%BA%8B%E5%B0%B1%E4%B8%BE%E6%8A%A5%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7808846"
+      "title": "“请所有股民 重视A股今天的大涨”",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%AF%B7%E6%89%80%E6%9C%89%E8%82%A1%E6%B0%91+%E9%87%8D%E8%A7%86A%E8%82%A1%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%A4%A7%E6%B6%A8%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7809323"
     },
     {
-      "title": "妻子与蔡磊见面全程没说话",
-      "url": "https://www.baidu.com/s?wd=%E5%A6%BB%E5%AD%90%E4%B8%8E%E8%94%A1%E7%A3%8A%E8%A7%81%E9%9D%A2%E5%85%A8%E7%A8%8B%E6%B2%A1%E8%AF%B4%E8%AF%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7714460"
+      "title": "中国老年人口数量前10省份出炉",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%80%81%E5%B9%B4%E4%BA%BA%E5%8F%A3%E6%95%B0%E9%87%8F%E5%89%8D10%E7%9C%81%E4%BB%BD%E5%87%BA%E7%82%89&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7713163"
     },
     {
-      "title": "“购物开箱”打开认知中国新视角",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%B4%AD%E7%89%A9%E5%BC%80%E7%AE%B1%E2%80%9D%E6%89%93%E5%BC%80%E8%AE%A4%E7%9F%A5%E4%B8%AD%E5%9B%BD%E6%96%B0%E8%A7%86%E8%A7%92&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7616675"
+      "title": "让二手商品“活”起来",
+      "url": "https://www.baidu.com/s?wd=%E8%AE%A9%E4%BA%8C%E6%89%8B%E5%95%86%E5%93%81%E2%80%9C%E6%B4%BB%E2%80%9D%E8%B5%B7%E6%9D%A5&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7618637"
     },
     {
-      "title": "下课都不让说方言 还何谈留住乡愁",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8B%E8%AF%BE%E9%83%BD%E4%B8%8D%E8%AE%A9%E8%AF%B4%E6%96%B9%E8%A8%80+%E8%BF%98%E4%BD%95%E8%B0%88%E7%95%99%E4%BD%8F%E4%B9%A1%E6%84%81&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7519710"
+      "title": "10万起存的大额存单要来了",
+      "url": "https://www.baidu.com/s?wd=10%E4%B8%87%E8%B5%B7%E5%AD%98%E7%9A%84%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7520700"
     },
     {
-      "title": "连外国游客都来横店“告发熹贵妃”",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%9E%E5%A4%96%E5%9B%BD%E6%B8%B8%E5%AE%A2%E9%83%BD%E6%9D%A5%E6%A8%AA%E5%BA%97%E2%80%9C%E5%91%8A%E5%8F%91%E7%86%B9%E8%B4%B5%E5%A6%83%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7427588"
+      "title": "最强厄尔尼诺来了！需防范极端天气",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%80%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E6%9D%A5%E4%BA%86%EF%BC%81%E9%9C%80%E9%98%B2%E8%8C%83%E6%9E%81%E7%AB%AF%E5%A4%A9%E6%B0%94&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7425118"
     },
     {
-      "title": "老戏骨田淼说徐若晗演戏不用心",
-      "url": "https://www.baidu.com/s?wd=%E8%80%81%E6%88%8F%E9%AA%A8%E7%94%B0%E6%B7%BC%E8%AF%B4%E5%BE%90%E8%8B%A5%E6%99%97%E6%BC%94%E6%88%8F%E4%B8%8D%E7%94%A8%E5%BF%83&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7333213"
+      "title": "年轻人开始翻爸妈的衣柜",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E7%BF%BB%E7%88%B8%E5%A6%88%E7%9A%84%E8%A1%A3%E6%9F%9C&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7331483"
     },
     {
-      "title": "初三男生被清华大学“预定”",
-      "url": "https://www.baidu.com/s?wd=%E5%88%9D%E4%B8%89%E7%94%B7%E7%94%9F%E8%A2%AB%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E2%80%9C%E9%A2%84%E5%AE%9A%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7234666"
+      "title": "“天才少女”傅园慧悄悄上岸了",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3%E2%80%9D%E5%82%85%E5%9B%AD%E6%85%A7%E6%82%84%E6%82%84%E4%B8%8A%E5%B2%B8%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7233753"
     },
     {
-      "title": "电影贺岁档片单来了",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E5%BD%B1%E8%B4%BA%E5%B2%81%E6%A1%A3%E7%89%87%E5%8D%95%E6%9D%A5%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7138679"
+      "title": "这部差点没拍成的剧 一出场就是王炸",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E9%83%A8%E5%B7%AE%E7%82%B9%E6%B2%A1%E6%8B%8D%E6%88%90%E7%9A%84%E5%89%A7+%E4%B8%80%E5%87%BA%E5%9C%BA%E5%B0%B1%E6%98%AF%E7%8E%8B%E7%82%B8&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7143264"
     },
     {
-      "title": "还我蒋欣脸颊肉",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%98%E6%88%91%E8%92%8B%E6%AC%A3%E8%84%B8%E9%A2%8A%E8%82%89&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7047234"
+      "title": "巴基斯坦航天员视频音轨被篡改",
+      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E8%88%AA%E5%A4%A9%E5%91%98%E8%A7%86%E9%A2%91%E9%9F%B3%E8%BD%A8%E8%A2%AB%E7%AF%A1%E6%94%B9&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7039735"
     },
     {
-      "title": "李维嘉回应追星王菲",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E7%BB%B4%E5%98%89%E5%9B%9E%E5%BA%94%E8%BF%BD%E6%98%9F%E7%8E%8B%E8%8F%B2&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6951006"
+      "title": "黄景瑜现身广州车展 与杨澜同框",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E6%99%AF%E7%91%9C%E7%8E%B0%E8%BA%AB%E5%B9%BF%E5%B7%9E%E8%BD%A6%E5%B1%95+%E4%B8%8E%E6%9D%A8%E6%BE%9C%E5%90%8C%E6%A1%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "6953824"
     }
-  ],
-  "error": "数据源更新失败，保留上次成功数据"
+  ]
 }
