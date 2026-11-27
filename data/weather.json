@@ -1,8 +1,8 @@
 {
   "source": "和风天气",
   "status": "ok",
-  "fetchedAt": "2026-11-27T16:08:59.886Z",
-  "lastAttemptAt": "2026-11-27T16:08:59.886Z",
+  "fetchedAt": "2026-11-27T17:01:57.153Z",
+  "lastAttemptAt": "2026-11-27T17:01:57.153Z",
   "data": {
     "city": "龙华",
     "province": "广东省",
@@ -12,11 +12,11 @@
       "feelsLike": "21",
       "text": "多云",
       "icon": "151",
-      "obsTime": "2026-11-27T23:48+08:00",
-      "windDir": "东风",
+      "obsTime": "2026-11-28T00:48+08:00",
+      "windDir": "东北风",
       "windScale": "2",
       "windSpeed": "7",
-      "humidity": "71",
+      "humidity": "72",
       "precip": "0.0",
       "pressure": "1014",
       "vis": "30",
@@ -215,12 +215,6 @@
     ],
     "hourly": [
       {
-        "fxTime": "2026-11-28T01:00+08:00",
-        "temp": "18",
-        "icon": "151",
-        "text": "多云"
-      },
-      {
         "fxTime": "2026-11-28T02:00+08:00",
         "temp": "18",
         "icon": "151",
@@ -357,9 +351,15 @@
         "temp": "16",
         "icon": "150",
         "text": "晴"
+      },
+      {
+        "fxTime": "2026-11-29T01:00+08:00",
+        "temp": "16",
+        "icon": "150",
+        "text": "晴"
       }
     ],
-    "updateTime": "2026-11-28T00:04+08:00",
+    "updateTime": "2026-11-28T01:00+08:00",
     "refer": {
       "sources": [
         "QWeather"
