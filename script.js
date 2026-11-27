@@ -374,7 +374,7 @@ function getSiteIconCandidates(site) {
     return persistedIcon.startsWith("data:")
       ? uniqueIconCandidates([persistedIcon, fallbackIcon])
       : uniqueIconCandidates([window.siteIconAssets.archived(persistedIcon), resolvedIcon,
-        persistedIcon, ...getFaviconCandidates(site?.url || "")]);
+        window.siteIconAssets.remote(persistedIcon), persistedIcon, ...getFaviconCandidates(site?.url || "")]);
   }
   return uniqueIconCandidates([
     resolvedIcon,
@@ -687,16 +687,17 @@ function removeFallbackSiteIcons() {
 }
 
 async function loadSections() {
-  try {
-    const response = await fetch("sites.json");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    sections = await response.json();
-  } catch (error) {
-    console.warn("使用备用导航数据：", error);
-  }
   const savedSections = loadSavedSections();
   if (savedSections) {
     sections = savedSections;
+  } else {
+    try {
+      const response = await fetch("sites.json");
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      sections = await response.json();
+    } catch (error) {
+      console.warn("使用备用导航数据：", error);
+    }
   }
   const changed = ensureHomeSection();
   const iconsChanged = removeFallbackSiteIcons();
@@ -3572,6 +3573,9 @@ async function bootstrap() {
   }
   await loadSections();
   refreshWidgetFeeds();
+  await iconAssetsReady;
+  const displayedSections = JSON.stringify(sections);
+  renderSections();
   try {
     sections = await window.githubNavigation.load();
     ensureHomeSection();
@@ -3589,8 +3593,7 @@ async function bootstrap() {
   document.querySelector("#memo-widget-time").textContent = "保护隐私，不公开同步";
   document.querySelector("#memo-widget-content").textContent = "原有内容仍保留在旧版站点";
   document.querySelector("#logout-button").textContent = "断开本机编辑";
-  await iconAssetsReady;
-  renderSections();
+  if (JSON.stringify(sections) !== displayedSections) renderSections();
   handlePendingBookmarkSite();
 }
 

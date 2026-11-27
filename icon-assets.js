@@ -10,6 +10,8 @@ window.siteIconAssets = (() => {
     try {
       manifest = JSON.parse(localStorage.getItem(cacheName) || "{}");
     } catch (_) { manifest = {}; }
+    const hasCachedManifest = Object.keys(manifest).length > 0;
+    Object.values(manifest).forEach(path => bundledPaths.add(path));
     async function refresh(url, merge) {
       try {
         const response = await fetch(url, { signal: AbortSignal.timeout(2500) });
@@ -24,13 +26,18 @@ window.siteIconAssets = (() => {
     }
     // Use the bundled manifest for first paint. Actions updates are refreshed
     // independently, so a slow raw.githubusercontent.com never delays the grid.
-    await refresh("data/icon-assets.json", true);
-    void refresh(`${repositoryBase}data/icon-assets.json`, false);
+    const localReady = refresh("data/icon-assets.json", true);
+    void localReady.then(() => refresh(`${repositoryBase}data/icon-assets.json`, false));
+    if (!hasCachedManifest) await localReady;
   }
 
   function archived(source) {
     const path = manifest[source];
     return path ? (bundledPaths.has(path) ? path : repositoryBase + path) : "";
+  }
+
+  function remote(source) {
+    return manifest[source] ? repositoryBase + manifest[source] : "";
   }
 
   async function cached(source) {
@@ -60,5 +67,5 @@ window.siteIconAssets = (() => {
     pending.set(source, task);
   }
 
-  return { load, archived, cached, remember };
+  return { load, archived, remote, cached, remember };
 })();
