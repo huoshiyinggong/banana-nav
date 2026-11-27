@@ -1,58 +1,58 @@
 {
   "source": "百度热搜",
   "status": "ok",
-  "fetchedAt": "2026-11-27T22:00:40.248Z",
-  "lastAttemptAt": "2026-11-27T22:00:40.248Z",
+  "fetchedAt": "2026-11-27T22:30:28.548Z",
+  "lastAttemptAt": "2026-11-27T22:30:28.548Z",
   "data": [
     {
       "title": "“请所有股民 重视A股今天的大涨”",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%AF%B7%E6%89%80%E6%9C%89%E8%82%A1%E6%B0%91+%E9%87%8D%E8%A7%86A%E8%82%A1%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%A4%A7%E6%B6%A8%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7809709"
+      "metric": "7808610"
     },
     {
       "title": "中国老年人口数量前10省份出炉",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%80%81%E5%B9%B4%E4%BA%BA%E5%8F%A3%E6%95%B0%E9%87%8F%E5%89%8D10%E7%9C%81%E4%BB%BD%E5%87%BA%E7%82%89&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7712523"
+      "metric": "7713540"
     },
     {
       "title": "让二手商品“活”起来",
       "url": "https://www.baidu.com/s?wd=%E8%AE%A9%E4%BA%8C%E6%89%8B%E5%95%86%E5%93%81%E2%80%9C%E6%B4%BB%E2%80%9D%E8%B5%B7%E6%9D%A5&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7617263"
+      "metric": "7619002"
     },
     {
       "title": "10万起存的大额存单要来了",
       "url": "https://www.baidu.com/s?wd=10%E4%B8%87%E8%B5%B7%E5%AD%98%E7%9A%84%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7520510"
+      "metric": "7520777"
     },
     {
       "title": "最强厄尔尼诺来了！需防范极端天气",
       "url": "https://www.baidu.com/s?wd=%E6%9C%80%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E6%9D%A5%E4%BA%86%EF%BC%81%E9%9C%80%E9%98%B2%E8%8C%83%E6%9E%81%E7%AB%AF%E5%A4%A9%E6%B0%94&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7425196"
+      "metric": "7424202"
     },
     {
       "title": "208万！国产豪车捅破价格“天花板”",
       "url": "https://www.baidu.com/s?wd=208%E4%B8%87%EF%BC%81%E5%9B%BD%E4%BA%A7%E8%B1%AA%E8%BD%A6%E6%8D%85%E7%A0%B4%E4%BB%B7%E6%A0%BC%E2%80%9C%E5%A4%A9%E8%8A%B1%E6%9D%BF%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7329030"
+      "metric": "7327793"
     },
     {
       "title": "中使馆：中国公民暂勿前往斯威士兰",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BD%BF%E9%A6%86%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%9A%82%E5%8B%BF%E5%89%8D%E5%BE%80%E6%96%AF%E5%A8%81%E5%A3%AB%E5%85%B0&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7233228"
+      "metric": "7235136"
     },
     {
       "title": "这部差点没拍成的剧 一出场就是王炸",
       "url": "https://www.baidu.com/s?wd=%E8%BF%99%E9%83%A8%E5%B7%AE%E7%82%B9%E6%B2%A1%E6%8B%8D%E6%88%90%E7%9A%84%E5%89%A7+%E4%B8%80%E5%87%BA%E5%9C%BA%E5%B0%B1%E6%98%AF%E7%8E%8B%E7%82%B8&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7137389"
+      "metric": "7140195"
     },
     {
       "title": "“天才少女”傅园慧悄悄上岸了",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3%E2%80%9D%E5%82%85%E5%9B%AD%E6%85%A7%E6%82%84%E6%82%84%E4%B8%8A%E5%B2%B8%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7048864"
+      "metric": "7045550"
     },
     {
       "title": "黄景瑜现身广州车展 与杨澜同框",
       "url": "https://www.baidu.com/s?wd=%E9%BB%84%E6%99%AF%E7%91%9C%E7%8E%B0%E8%BA%AB%E5%B9%BF%E5%B7%9E%E8%BD%A6%E5%B1%95+%E4%B8%8E%E6%9D%A8%E6%BE%9C%E5%90%8C%E6%A1%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6952359"
+      "metric": "6947932"
     }
   ]
 }
