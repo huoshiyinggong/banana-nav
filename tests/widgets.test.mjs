@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { normalizeHotItems, normalizeWeather, fetchWeather, shouldRefreshWeather, refreshSnapshot } from "../scripts/refresh-widgets.mjs";
+import { normalizeHotItems, normalizeWeather, fetchWeather, shouldRefreshWeather, refreshSnapshot, snapshotFailures } from "../scripts/refresh-widgets.mjs";
 
 const config = { city: "龙华", province: "广东省" };
 const current = { code: "200", now: { temp: "0", icon: "104", text: "阴", obsTime: "2026-11-23T12:00+08:00", precip: "0.0" } };
@@ -15,6 +15,23 @@ test("normalizes Baidu list with a ten-item limit", () => {
 
 test("empty or unrelated hot response is rejected", () => {
   assert.throws(() => normalizeHotItems({ data: { cards: [] } }), /空列表/);
+});
+
+test("current Baidu homepage headlines are selected instead of themed boards", () => {
+  const items = normalizeHotItems({ data: { cards: [
+    { component: "topBoard", content: [{ word: "娱乐榜" }] },
+    { component: "homeHeadline", content: [{ query: "综合新闻", hotScore: "123", rawUrl: "https://www.baidu.com/s?wd=test" }] },
+  ] } });
+  assert.equal(items[0].title, "综合新闻");
+  assert.equal(items[0].metric, "123");
+  assert.match(items[0].url, /^https:/);
+  assert.throws(() => normalizeHotItems({ data: { cards: [{ component: "topBoard", content: [{ word: "娱乐榜" }] }] } }), /空列表/);
+});
+
+test("snapshot failure detection catches stale fallback even when fetching did not throw", () => {
+  assert.deepEqual(snapshotFailures({ weather: { status: "ok" }, hot: { status: "error" } }), ["hot"]);
+  assert.deepEqual(snapshotFailures({ weather: { status: "unconfigured" }, hot: { status: "ok" } }), ["weather"]);
+  assert.deepEqual(snapshotFailures({ weather: { status: "ok" }, hot: { status: "ok" } }), []);
 });
 
 test("weather retains zero temperature and six future days", () => {

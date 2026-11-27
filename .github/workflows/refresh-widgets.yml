@@ -53,3 +53,18 @@ jobs:
             if git push origin HEAD:main; then exit 0; fi
           done
           exit 1
+      - name: Report data source failures after preserving snapshots
+        if: always()
+        run: |
+          node --input-type=module <<'JS'
+          import { readFile } from 'node:fs/promises';
+          import { snapshotFailures } from './scripts/refresh-widgets.mjs';
+          const snapshots = {};
+          for (const name of ['weather', 'hot-search']) {
+            snapshots[name] = JSON.parse(await readFile(`data/${name}.json`, 'utf8'));
+          }
+          for (const name of snapshotFailures(snapshots)) {
+            console.error(`::error::${name}: source update failed; retained last successful snapshot`);
+            process.exitCode = 1;
+          }
+          JS

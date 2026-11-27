@@ -14,8 +14,12 @@ async function requestJson(url, headers = {}, fetcher = fetch) {
 }
 
 export function normalizeHotItems(payload) {
-  const cards = payload?.data?.cards || [];
-  const card = cards.find((item) => item.component === "hotList");
+  const cards = Array.isArray(payload?.data?.cards) ? payload.data.cards : [];
+  // homeHeadline is the current overall news list; topBoard cards are themed
+  // rankings (entertainment, sports, etc.) and must not replace the main list.
+  const card = ["homeHeadline", "hotList"].map(component =>
+    cards.find(item => item.component === component && Array.isArray(item.content) && item.content.length)
+  ).find(Boolean);
   const items = (card?.content || []).map((item) => ({
     title: String(item.word || item.query || "").trim(),
     url: /^https?:\/\//i.test(item.url || item.rawUrl || "") ? item.url || item.rawUrl : "",
@@ -23,6 +27,10 @@ export function normalizeHotItems(payload) {
   })).filter((item) => item.title).slice(0, 10);
   if (!items.length) throw new Error("百度热搜返回空列表");
   return items;
+}
+
+export function snapshotFailures(snapshots) {
+  return Object.entries(snapshots).filter(([, snapshot]) => snapshot?.status !== "ok").map(([name]) => name);
 }
 
 function dayLabel(date, index) {
