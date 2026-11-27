@@ -2070,7 +2070,11 @@ body[data-theme="dark"] .modal-backdrop {
 }
 
 .calendar-dialog {
+  display: flex;
   width: min(860px, calc(100vw - 32px));
+  height: 530px;
+  max-height: calc(100dvh - 24px);
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid rgba(226, 232, 240, 0.9);
   border-radius: 20px;
@@ -2080,6 +2084,7 @@ body[data-theme="dark"] .modal-backdrop {
 
 .calendar-dialog-head {
   display: flex;
+  flex-shrink: 0;
   min-height: 82px;
   align-items: center;
   justify-content: space-between;
@@ -2114,7 +2119,10 @@ body[data-theme="dark"] .modal-backdrop {
 
 .calendar-dialog-body {
   display: grid;
+  min-height: 0;
+  flex: 1;
   grid-template-columns: minmax(0, 1fr) 220px;
+  grid-template-rows: 42px minmax(0, 1fr) auto;
   column-gap: 20px;
   padding: 16px 24px 14px;
 }
@@ -2171,6 +2179,8 @@ body[data-theme="dark"] .modal-backdrop {
   grid-column: 1;
   grid-row: 2;
   min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 .calendar-weekdays,
@@ -2277,11 +2287,48 @@ body[data-theme="dark"] .modal-backdrop {
   grid-row: 1 / span 2;
   width: 220px;
   min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
   flex-direction: column;
   justify-content: flex-start;
   padding: 18px;
   border-radius: 14px;
   background: #f6f7fa;
+}
+
+.calendar-detail > * {
+  flex-shrink: 0;
+}
+
+.calendar-detail:hover {
+  scrollbar-color: rgba(138, 147, 163, 0.55) transparent;
+}
+
+@supports selector(::-webkit-scrollbar) {
+  .calendar-detail,
+  .calendar-detail:hover {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+}
+
+.calendar-detail::-webkit-scrollbar {
+  width: 2px;
+}
+
+.calendar-detail::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.calendar-detail::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: transparent;
+}
+
+.calendar-detail:hover::-webkit-scrollbar-thumb {
+  background: rgba(138, 147, 163, 0.55);
 }
 
 .calendar-detail p,
@@ -3378,8 +3425,7 @@ body.has-wallpaper .site-description {
 
   .calendar-dialog {
     width: 100%;
-    max-height: calc(100vh - 24px);
-    overflow-y: auto;
+    height: 760px;
     border-radius: 18px;
   }
 
@@ -3393,21 +3439,25 @@ body.has-wallpaper .site-description {
   }
 
   .calendar-dialog-body {
-    display: block;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 42px minmax(180px, 1fr) minmax(100px, 1fr) auto;
     padding: 16px 14px 14px;
   }
 
   .calendar-content {
-    display: block;
+    display: contents;
   }
 
   .calendar-detail {
+    grid-column: 1;
+    grid-row: 3;
     width: 100%;
     min-height: 0;
     margin-top: 14px;
   }
 
   .calendar-source {
+    grid-column: 1;
     text-align: left;
   }
 

@@ -366,13 +366,16 @@ function getSiteIcon(site) {
 
 function getSiteIconCandidates(site) {
   const persistedIcon = getPersistedSiteIcon(site);
+  const cacheKey = getResolvedIconCacheKey(site?.url || "");
+  const cachedIcon = cacheKey ? resolvedIconCache[cacheKey] : null;
+  const resolvedIcon = cachedIcon && (!persistedIcon || (cachedIcon.savedIcon ?? cachedIcon.sourceUrl) === persistedIcon)
+    ? cachedIcon.dataUrl : "";
   if (persistedIcon) {
     return persistedIcon.startsWith("data:")
       ? uniqueIconCandidates([persistedIcon, fallbackIcon])
-      : uniqueIconCandidates([persistedIcon, ...getFaviconCandidates(site?.url || "")]);
+      : uniqueIconCandidates([window.siteIconAssets.archived(persistedIcon), resolvedIcon,
+        persistedIcon, ...getFaviconCandidates(site?.url || "")]);
   }
-  const cacheKey = getResolvedIconCacheKey(site?.url || "");
-  const resolvedIcon = cacheKey ? resolvedIconCache[cacheKey]?.dataUrl : "";
   return uniqueIconCandidates([
     resolvedIcon,
     ...getFaviconCandidates(site?.url || ""),
@@ -439,8 +442,10 @@ function updateIconBackplate(image) {
 
 function rememberLoadedSiteIcon(image) {
   const src = image.currentSrc || image.src || "";
+  window.siteIconAssets.remember(src);
   if (
     !src ||
+    src.startsWith("blob:") ||
     isFallbackIcon(src) ||
     image.dataset.preserveIcon === "true" ||
     image.id === "icon-preview"
@@ -454,6 +459,7 @@ function rememberLoadedSiteIcon(image) {
     resolvedIconCache[cacheKey] = {
       dataUrl: src,
       sourceUrl: src,
+      savedIcon: getPersistedSiteIcon(sections[Number(image.dataset.sectionIndex)]?.sites[Number(image.dataset.siteIndex)]),
       width: image.naturalWidth || 0,
       height: image.naturalHeight || 0,
       updatedAt: Date.now(),
@@ -557,7 +563,7 @@ function scheduleSiteIconTimeout(image) {
     if (!image.complete || !image.naturalWidth || !image.naturalHeight) {
       loadNextIconCandidate(image);
     }
-  }, 6000);
+  }, 2500);
   siteIconLoadTimers.set(image, timer);
 }
 
@@ -567,10 +573,18 @@ function scheduleRenderedSiteIcons() {
     .forEach(scheduleSiteIconTimeout);
 }
 
-function hydrateSiteIcon(image) {
+async function hydrateSiteIcon(image) {
   const iconSrc = image.dataset.iconSrc || "";
-  if (!iconSrc || image.getAttribute("src")) return;
-  image.src = iconSrc;
+  if (!iconSrc || image.getAttribute("src") || image.dataset.hydrating) return;
+  image.dataset.hydrating = "true";
+  const cached = await window.siteIconAssets.cached(iconSrc);
+  if (!image.isConnected) {
+    if (cached) URL.revokeObjectURL(cached);
+    return;
+  }
+  image.src = cached || iconSrc;
+  if (cached) image.addEventListener("load", () => URL.revokeObjectURL(cached), { once: true });
+  scheduleSiteIconTimeout(image);
 }
 
 function hydrateVisibleSiteIcons() {
@@ -2757,7 +2771,7 @@ function renderSiteCard(site, sectionIndex = -1, siteIndex = -1, options = {}) {
       title="${isStatic ? escapeHtml(site.name) : isAdminMode ? "拖拽排序，右键菜单" : escapeHtml(site.name)}"
     >
       <span class="icon-box">
-        <img alt="" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" data-icon-src="${escapeHtml(iconSrc || fallbackIcon)}" data-site-url="${escapeHtml(site.url || "")}" data-site-name="${escapeHtml(site.name || "")}" data-section-index="${sectionIndex}" data-site-index="${siteIndex}" data-preserve-icon="${preserveCurrentIcon}" data-icon-candidates="${escapeHtml(JSON.stringify(iconFallbacks))}" onload="validateSiteIcon(this)" onerror="loadNextIconCandidate(this)" />
+        <img alt="" loading="eager" decoding="async" fetchpriority="auto" referrerpolicy="no-referrer" data-icon-src="${escapeHtml(iconSrc || fallbackIcon)}" data-site-url="${escapeHtml(site.url || "")}" data-site-name="${escapeHtml(site.name || "")}" data-section-index="${sectionIndex}" data-site-index="${siteIndex}" data-preserve-icon="${preserveCurrentIcon}" data-icon-candidates="${escapeHtml(JSON.stringify(iconFallbacks))}" onload="validateSiteIcon(this)" onerror="loadNextIconCandidate(this)" />
       </span>
       <span class="site-copy">
         <span class="site-name">${escapeHtml(site.name)}</span>
@@ -3551,6 +3565,7 @@ setInterval(updateDateTime, 30 * 1000);
 bootstrap();
 
 async function bootstrap() {
+  const iconAssetsReady = window.siteIconAssets.load();
   pendingBookmarkSite = getBookmarkSiteFromUrl();
   if (pendingBookmarkSite) {
     clearBookmarkParams();
@@ -3574,6 +3589,7 @@ async function bootstrap() {
   document.querySelector("#memo-widget-time").textContent = "保护隐私，不公开同步";
   document.querySelector("#memo-widget-content").textContent = "原有内容仍保留在旧版站点";
   document.querySelector("#logout-button").textContent = "断开本机编辑";
+  await iconAssetsReady;
   renderSections();
   handlePendingBookmarkSite();
 }
