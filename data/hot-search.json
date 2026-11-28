@@ -1,58 +1,58 @@
 {
   "source": "百度热搜",
   "status": "ok",
-  "fetchedAt": "2026-11-28T01:30:30.238Z",
-  "lastAttemptAt": "2026-11-28T01:30:30.238Z",
+  "fetchedAt": "2026-11-28T02:00:35.893Z",
+  "lastAttemptAt": "2026-11-28T02:00:35.893Z",
   "data": [
     {
       "title": "国常会首提“国家队” 释放什么信号",
       "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%B8%B8%E4%BC%9A%E9%A6%96%E6%8F%90%E2%80%9C%E5%9B%BD%E5%AE%B6%E9%98%9F%E2%80%9D+%E9%87%8A%E6%94%BE%E4%BB%80%E4%B9%88%E4%BF%A1%E5%8F%B7&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7808457"
+      "metric": "7809650"
     },
     {
       "title": "超40岁被拒入住酒店 一刀切合法吗",
       "url": "https://www.baidu.com/s?wd=%E8%B6%8540%E5%B2%81%E8%A2%AB%E6%8B%92%E5%85%A5%E4%BD%8F%E9%85%92%E5%BA%97+%E4%B8%80%E5%88%80%E5%88%87%E5%90%88%E6%B3%95%E5%90%97&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7714113"
+      "metric": "7712502"
     },
     {
       "title": "让二手商品“活”起来",
       "url": "https://www.baidu.com/s?wd=%E8%AE%A9%E4%BA%8C%E6%89%8B%E5%95%86%E5%93%81%E2%80%9C%E6%B4%BB%E2%80%9D%E8%B5%B7%E6%9D%A5&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7618189"
-    },
-    {
-      "title": "央行新规 取消贷款罚息利率上下限",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%E6%96%B0%E8%A7%84+%E5%8F%96%E6%B6%88%E8%B4%B7%E6%AC%BE%E7%BD%9A%E6%81%AF%E5%88%A9%E7%8E%87%E4%B8%8A%E4%B8%8B%E9%99%90&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7524477"
-    },
-    {
-      "title": "张颂文称不当演员了可以去干导游",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%A2%82%E6%96%87%E7%A7%B0%E4%B8%8D%E5%BD%93%E6%BC%94%E5%91%98%E4%BA%86%E5%8F%AF%E4%BB%A5%E5%8E%BB%E5%B9%B2%E5%AF%BC%E6%B8%B8&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7429128"
-    },
-    {
-      "title": "“天才少女”傅园慧悄悄上岸了",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3%E2%80%9D%E5%82%85%E5%9B%AD%E6%85%A7%E6%82%84%E6%82%84%E4%B8%8A%E5%B2%B8%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7329535"
-    },
-    {
-      "title": "U17国足淘汰赛时间确定",
-      "url": "https://www.baidu.com/s?wd=U17%E5%9B%BD%E8%B6%B3%E6%B7%98%E6%B1%B0%E8%B5%9B%E6%97%B6%E9%97%B4%E7%A1%AE%E5%AE%9A&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7231834"
-    },
-    {
-      "title": "《黑神话》制作人发长文谈AI冲击",
-      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E9%BB%91%E7%A5%9E%E8%AF%9D%E3%80%8B%E5%88%B6%E4%BD%9C%E4%BA%BA%E5%8F%91%E9%95%BF%E6%96%87%E8%B0%88AI%E5%86%B2%E5%87%BB&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7143186"
+      "metric": "7618485"
     },
     {
       "title": "魏建军回应“从第一掉到第九”",
       "url": "https://www.baidu.com/s?wd=%E9%AD%8F%E5%BB%BA%E5%86%9B%E5%9B%9E%E5%BA%94%E2%80%9C%E4%BB%8E%E7%AC%AC%E4%B8%80%E6%8E%89%E5%88%B0%E7%AC%AC%E4%B9%9D%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7039892"
+      "metric": "7520702"
     },
     {
-      "title": "陈奕迅找梁咏琪要签名",
-      "url": "https://www.baidu.com/s?wd=%E9%99%88%E5%A5%95%E8%BF%85%E6%89%BE%E6%A2%81%E5%92%8F%E7%90%AA%E8%A6%81%E7%AD%BE%E5%90%8D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6945709"
+      "title": "李香凝将用AIGC复活李小龙",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E9%A6%99%E5%87%9D%E5%B0%86%E7%94%A8AIGC%E5%A4%8D%E6%B4%BB%E6%9D%8E%E5%B0%8F%E9%BE%99&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7427837"
+    },
+    {
+      "title": "孙女200斤男友上门被爷爷奶奶量血压",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%99%E5%A5%B3200%E6%96%A4%E7%94%B7%E5%8F%8B%E4%B8%8A%E9%97%A8%E8%A2%AB%E7%88%B7%E7%88%B7%E5%A5%B6%E5%A5%B6%E9%87%8F%E8%A1%80%E5%8E%8B&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7330485"
+    },
+    {
+      "title": "U17国足淘汰赛时间确定",
+      "url": "https://www.baidu.com/s?wd=U17%E5%9B%BD%E8%B6%B3%E6%B7%98%E6%B1%B0%E8%B5%9B%E6%97%B6%E9%97%B4%E7%A1%AE%E5%AE%9A&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7233932"
+    },
+    {
+      "title": "初中读一年 立刻开始高中课程",
+      "url": "https://www.baidu.com/s?wd=%E5%88%9D%E4%B8%AD%E8%AF%BB%E4%B8%80%E5%B9%B4+%E7%AB%8B%E5%88%BB%E5%BC%80%E5%A7%8B%E9%AB%98%E4%B8%AD%E8%AF%BE%E7%A8%8B&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7142490"
+    },
+    {
+      "title": "“天才少女”傅园慧悄悄上岸了",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3%E2%80%9D%E5%82%85%E5%9B%AD%E6%85%A7%E6%82%84%E6%82%84%E4%B8%8A%E5%B2%B8%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7043045"
+    },
+    {
+      "title": "《黑神话》制作人发长文谈AI冲击",
+      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E9%BB%91%E7%A5%9E%E8%AF%9D%E3%80%8B%E5%88%B6%E4%BD%9C%E4%BA%BA%E5%8F%91%E9%95%BF%E6%96%87%E8%B0%88AI%E5%86%B2%E5%87%BB&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "6946325"
     }
   ]
 }
