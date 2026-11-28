@@ -1,58 +1,58 @@
 {
   "source": "百度热搜",
   "status": "ok",
-  "fetchedAt": "2026-11-28T09:30:28.039Z",
-  "lastAttemptAt": "2026-11-28T09:30:28.039Z",
+  "fetchedAt": "2026-11-28T10:00:36.063Z",
+  "lastAttemptAt": "2026-11-28T10:00:36.063Z",
   "data": [
     {
       "title": "警方提级调查50人采摘蜜桔仅留10元",
       "url": "https://www.baidu.com/s?wd=%E8%AD%A6%E6%96%B9%E6%8F%90%E7%BA%A7%E8%B0%83%E6%9F%A550%E4%BA%BA%E9%87%87%E6%91%98%E8%9C%9C%E6%A1%94%E4%BB%85%E7%95%9910%E5%85%83&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7809260"
+      "metric": "7809480"
     },
     {
       "title": "订单飙涨80%！义乌又爆单了",
       "url": "https://www.baidu.com/s?wd=%E8%AE%A2%E5%8D%95%E9%A3%99%E6%B6%A880%25%EF%BC%81%E4%B9%89%E4%B9%8C%E5%8F%88%E7%88%86%E5%8D%95%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7712409"
+      "metric": "7712456"
     },
     {
       "title": "今年前10个月物流业总收入12.3万亿元",
       "url": "https://www.baidu.com/s?wd=%E4%BB%8A%E5%B9%B4%E5%89%8D10%E4%B8%AA%E6%9C%88%E7%89%A9%E6%B5%81%E4%B8%9A%E6%80%BB%E6%94%B6%E5%85%A512.3%E4%B8%87%E4%BA%BF%E5%85%83&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7615712"
+      "metric": "7616760"
     },
     {
       "title": "证监会出手！“南京路宝宝总”被查处",
       "url": "https://www.baidu.com/s?wd=%E8%AF%81%E7%9B%91%E4%BC%9A%E5%87%BA%E6%89%8B%EF%BC%81%E2%80%9C%E5%8D%97%E4%BA%AC%E8%B7%AF%E5%AE%9D%E5%AE%9D%E6%80%BB%E2%80%9D%E8%A2%AB%E6%9F%A5%E5%A4%84&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7524295"
+      "metric": "7519869"
     },
     {
-      "title": "中国南方发现未知古人类支系",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8D%97%E6%96%B9%E5%8F%91%E7%8E%B0%E6%9C%AA%E7%9F%A5%E5%8F%A4%E4%BA%BA%E7%B1%BB%E6%94%AF%E7%B3%BB&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7424256"
+      "title": "央视曝光：这款爆火的家用神器不靠谱",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%EF%BC%9A%E8%BF%99%E6%AC%BE%E7%88%86%E7%81%AB%E7%9A%84%E5%AE%B6%E7%94%A8%E7%A5%9E%E5%99%A8%E4%B8%8D%E9%9D%A0%E8%B0%B1&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7425718"
     },
     {
       "title": "可乐为啥不印生产日期了",
       "url": "https://www.baidu.com/s?wd=%E5%8F%AF%E4%B9%90%E4%B8%BA%E5%95%A5%E4%B8%8D%E5%8D%B0%E7%94%9F%E4%BA%A7%E6%97%A5%E6%9C%9F%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7330315"
+      "metric": "7329377"
     },
     {
       "title": "地面零距离实拍歼-35A",
       "url": "https://www.baidu.com/s?wd=%E5%9C%B0%E9%9D%A2%E9%9B%B6%E8%B7%9D%E7%A6%BB%E5%AE%9E%E6%8B%8D%E6%AD%BC-35A&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7232234"
+      "metric": "7234683"
     },
     {
-      "title": "冬天皮肤痒 可能这件事做错了",
-      "url": "https://www.baidu.com/s?wd=%E5%86%AC%E5%A4%A9%E7%9A%AE%E8%82%A4%E7%97%92+%E5%8F%AF%E8%83%BD%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%81%9A%E9%94%99%E4%BA%86&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7142662"
+      "title": "泄露身份证后四位有多危险",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%84%E9%9C%B2%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%90%8E%E5%9B%9B%E4%BD%8D%E6%9C%89%E5%A4%9A%E5%8D%B1%E9%99%A9&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7138048"
     },
     {
-      "title": "赵丽颖现身民政局陪好友领证",
-      "url": "https://www.baidu.com/s?wd=%E8%B5%B5%E4%B8%BD%E9%A2%96%E7%8E%B0%E8%BA%AB%E6%B0%91%E6%94%BF%E5%B1%80%E9%99%AA%E5%A5%BD%E5%8F%8B%E9%A2%86%E8%AF%81&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7044350"
+      "title": "许飞是否告密成“罗生门”",
+      "url": "https://www.baidu.com/s?wd=%E8%AE%B8%E9%A3%9E%E6%98%AF%E5%90%A6%E5%91%8A%E5%AF%86%E6%88%90%E2%80%9C%E7%BD%97%E7%94%9F%E9%97%A8%E2%80%9D&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7041958"
     },
     {
-      "title": "成都混团国乒韩国法国同组",
-      "url": "https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E6%B7%B7%E5%9B%A2%E5%9B%BD%E4%B9%92%E9%9F%A9%E5%9B%BD%E6%B3%95%E5%9B%BD%E5%90%8C%E7%BB%84&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6951329"
+      "title": "国乒混团世界杯抽到上上签",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E6%B7%B7%E5%9B%A2%E4%B8%96%E7%95%8C%E6%9D%AF%E6%8A%BD%E5%88%B0%E4%B8%8A%E4%B8%8A%E7%AD%BE&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "6944229"
     }
   ]
 }
