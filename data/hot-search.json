@@ -1,58 +1,58 @@
 {
   "source": "百度热搜",
   "status": "ok",
-  "fetchedAt": "2026-11-28T19:30:36.966Z",
-  "lastAttemptAt": "2026-11-28T19:30:36.966Z",
+  "fetchedAt": "2026-11-28T20:00:36.183Z",
+  "lastAttemptAt": "2026-11-28T20:00:36.183Z",
   "data": [
     {
       "title": "中国电视开机率降至30%",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B5%E8%A7%86%E5%BC%80%E6%9C%BA%E7%8E%87%E9%99%8D%E8%87%B330%25&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7808597"
+      "metric": "7809121"
     },
     {
       "title": "日本拟调整“老人”定义",
       "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%8B%9F%E8%B0%83%E6%95%B4%E2%80%9C%E8%80%81%E4%BA%BA%E2%80%9D%E5%AE%9A%E4%B9%89&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7713292"
+      "metric": "7712997"
     },
     {
       "title": "冰雪季来了 解锁今年新玩法",
       "url": "https://www.baidu.com/s?wd=%E5%86%B0%E9%9B%AA%E5%AD%A3%E6%9D%A5%E4%BA%86+%E8%A7%A3%E9%94%81%E4%BB%8A%E5%B9%B4%E6%96%B0%E7%8E%A9%E6%B3%95&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7618191"
+      "metric": "7619147"
     },
     {
       "title": "实验猴价格飙涨至26万一只",
       "url": "https://www.baidu.com/s?wd=%E5%AE%9E%E9%AA%8C%E7%8C%B4%E4%BB%B7%E6%A0%BC%E9%A3%99%E6%B6%A8%E8%87%B326%E4%B8%87%E4%B8%80%E5%8F%AA&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7524347"
+      "metric": "7521055"
     },
     {
       "title": "跟于东来在酒吧合影女生：他很接地气",
       "url": "https://www.baidu.com/s?wd=%E8%B7%9F%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%9C%A8%E9%85%92%E5%90%A7%E5%90%88%E5%BD%B1%E5%A5%B3%E7%94%9F%EF%BC%9A%E4%BB%96%E5%BE%88%E6%8E%A5%E5%9C%B0%E6%B0%94&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7425490"
+      "metric": "7425812"
     },
     {
       "title": "冯骥8千字长文刷屏：AI时代人该怎么办",
       "url": "https://www.baidu.com/s?wd=%E5%86%AF%E9%AA%A58%E5%8D%83%E5%AD%97%E9%95%BF%E6%96%87%E5%88%B7%E5%B1%8F%EF%BC%9AAI%E6%97%B6%E4%BB%A3%E4%BA%BA%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7328400"
+      "metric": "7329621"
     },
     {
       "title": "霍启山娜然正式官宣恋情",
       "url": "https://www.baidu.com/s?wd=%E9%9C%8D%E5%90%AF%E5%B1%B1%E5%A8%9C%E7%84%B6%E6%AD%A3%E5%BC%8F%E5%AE%98%E5%AE%A3%E6%81%8B%E6%83%85&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7238986"
+      "metric": "7232945"
     },
     {
       "title": "歼-35A被“护送” 歼-10C：我沉默哈",
       "url": "https://www.baidu.com/s?wd=%E6%AD%BC-35A%E8%A2%AB%E2%80%9C%E6%8A%A4%E9%80%81%E2%80%9D+%E6%AD%BC-10C%EF%BC%9A%E6%88%91%E6%B2%89%E9%BB%98%E5%93%88&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7138942"
+      "metric": "7137699"
     },
     {
       "title": "胡锡进谈冯骥AI观点敲响警钟",
       "url": "https://www.baidu.com/s?wd=%E8%83%A1%E9%94%A1%E8%BF%9B%E8%B0%88%E5%86%AF%E9%AA%A5AI%E8%A7%82%E7%82%B9%E6%95%B2%E5%93%8D%E8%AD%A6%E9%92%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7048132"
+      "metric": "7042145"
     },
     {
       "title": "李思潼获金狮大赏最佳女主",
       "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%80%9D%E6%BD%BC%E8%8E%B7%E9%87%91%E7%8B%AE%E5%A4%A7%E8%B5%8F%E6%9C%80%E4%BD%B3%E5%A5%B3%E4%B8%BB&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6952974"
+      "metric": "6943589"
     }
   ]
 }
