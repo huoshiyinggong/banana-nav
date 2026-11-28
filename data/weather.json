@@ -1,24 +1,24 @@
 {
   "source": "和风天气",
   "status": "ok",
-  "fetchedAt": "2026-11-28T04:00:47.815Z",
-  "lastAttemptAt": "2026-11-28T04:00:47.815Z",
+  "fetchedAt": "2026-11-28T05:00:38.304Z",
+  "lastAttemptAt": "2026-11-28T05:00:38.304Z",
   "data": {
     "city": "龙华",
     "province": "广东省",
     "locationName": "广东省 · 龙华",
     "current": {
-      "temp": "25",
-      "feelsLike": "24",
-      "text": "多云",
-      "icon": "101",
-      "obsTime": "2026-11-28T11:48+08:00",
+      "temp": "26",
+      "feelsLike": "25",
+      "text": "晴",
+      "icon": "100",
+      "obsTime": "2026-11-28T12:48+08:00",
       "windDir": "北风",
-      "windScale": "5",
-      "windSpeed": "33",
+      "windScale": "4",
+      "windSpeed": "26",
       "humidity": "30",
       "precip": "0.0",
-      "pressure": "1016",
+      "pressure": "1015",
       "vis": "30",
       "cloud": "99",
       "dew": "25"
@@ -115,10 +115,10 @@
       {
         "date": "2026-12-04",
         "label": "周五",
-        "text": "小雨",
-        "icon": "305",
-        "tempMin": "22",
-        "tempMax": "28",
+        "text": "多云",
+        "icon": "101",
+        "tempMin": "21",
+        "tempMax": "27",
         "sunrise": "06:49",
         "sunset": "17:38",
         "humidity": "86",
@@ -201,10 +201,10 @@
       {
         "date": "2026-12-04",
         "label": "周五",
-        "text": "小雨",
-        "icon": "305",
-        "tempMin": "22",
-        "tempMax": "28",
+        "text": "多云",
+        "icon": "101",
+        "tempMin": "21",
+        "tempMax": "27",
         "sunrise": "06:49",
         "sunset": "17:38",
         "humidity": "86",
@@ -214,12 +214,6 @@
       }
     ],
     "hourly": [
-      {
-        "fxTime": "2026-11-28T13:00+08:00",
-        "temp": "26",
-        "icon": "101",
-        "text": "多云"
-      },
       {
         "fxTime": "2026-11-28T14:00+08:00",
         "temp": "27",
@@ -357,9 +351,15 @@
         "temp": "23",
         "icon": "100",
         "text": "晴"
+      },
+      {
+        "fxTime": "2026-11-29T13:00+08:00",
+        "temp": "23",
+        "icon": "100",
+        "text": "晴"
       }
     ],
-    "updateTime": "2026-11-28T12:00+08:00",
+    "updateTime": "2026-11-28T13:00+08:00",
     "refer": {
       "sources": [
         "QWeather"
