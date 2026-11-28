@@ -1,58 +1,58 @@
 {
   "source": "百度热搜",
   "status": "ok",
-  "fetchedAt": "2026-11-28T15:00:37.100Z",
-  "lastAttemptAt": "2026-11-28T15:00:37.100Z",
+  "fetchedAt": "2026-11-28T15:30:29.427Z",
+  "lastAttemptAt": "2026-11-28T15:30:29.427Z",
   "data": [
     {
       "title": "中国电视开机率降至30%",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B5%E8%A7%86%E5%BC%80%E6%9C%BA%E7%8E%87%E9%99%8D%E8%87%B330%25&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7808859"
+      "metric": "7808227"
     },
     {
-      "title": "巴基斯坦总理天地通话秀中文",
-      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E6%80%BB%E7%90%86%E5%A4%A9%E5%9C%B0%E9%80%9A%E8%AF%9D%E7%A7%80%E4%B8%AD%E6%96%87&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7713701"
+      "title": "歼-35A被“护送” 歼-10C：我沉默哈",
+      "url": "https://www.baidu.com/s?wd=%E6%AD%BC-35A%E8%A2%AB%E2%80%9C%E6%8A%A4%E9%80%81%E2%80%9D+%E6%AD%BC-10C%EF%BC%9A%E6%88%91%E6%B2%89%E9%BB%98%E5%93%88&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7713367"
     },
     {
       "title": "冰雪季来了 解锁今年新玩法",
       "url": "https://www.baidu.com/s?wd=%E5%86%B0%E9%9B%AA%E5%AD%A3%E6%9D%A5%E4%BA%86+%E8%A7%A3%E9%94%81%E4%BB%8A%E5%B9%B4%E6%96%B0%E7%8E%A9%E6%B3%95&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7617548"
+      "metric": "7619473"
     },
     {
       "title": "教中国造车的德国师傅利润只剩零头",
       "url": "https://www.baidu.com/s?wd=%E6%95%99%E4%B8%AD%E5%9B%BD%E9%80%A0%E8%BD%A6%E7%9A%84%E5%BE%B7%E5%9B%BD%E5%B8%88%E5%82%85%E5%88%A9%E6%B6%A6%E5%8F%AA%E5%89%A9%E9%9B%B6%E5%A4%B4&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7521408"
+      "metric": "7522093"
     },
     {
-      "title": "你常说的口头禅“妈呀”大有来头",
-      "url": "https://www.baidu.com/s?wd=%E4%BD%A0%E5%B8%B8%E8%AF%B4%E7%9A%84%E5%8F%A3%E5%A4%B4%E7%A6%85%E2%80%9C%E5%A6%88%E5%91%80%E2%80%9D%E5%A4%A7%E6%9C%89%E6%9D%A5%E5%A4%B4&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7424229"
+      "title": "巴基斯坦总理天地通话秀中文",
+      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E6%80%BB%E7%90%86%E5%A4%A9%E5%9C%B0%E9%80%9A%E8%AF%9D%E7%A7%80%E4%B8%AD%E6%96%87&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
+      "metric": "7428664"
     },
     {
       "title": "霍启山娜然正式官宣恋情",
       "url": "https://www.baidu.com/s?wd=%E9%9C%8D%E5%90%AF%E5%B1%B1%E5%A8%9C%E7%84%B6%E6%AD%A3%E5%BC%8F%E5%AE%98%E5%AE%A3%E6%81%8B%E6%83%85&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7331879"
+      "metric": "7329002"
     },
     {
       "title": "女飞行员：开重型战机很有力量感",
       "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E9%A3%9E%E8%A1%8C%E5%91%98%EF%BC%9A%E5%BC%80%E9%87%8D%E5%9E%8B%E6%88%98%E6%9C%BA%E5%BE%88%E6%9C%89%E5%8A%9B%E9%87%8F%E6%84%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7232876"
+      "metric": "7238377"
     },
     {
       "title": "中国女足3比0击败泰国队",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E8%B6%B33%E6%AF%940%E5%87%BB%E8%B4%A5%E6%B3%B0%E5%9B%BD%E9%98%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7136151"
+      "metric": "7143818"
     },
     {
       "title": "徐良演唱会伴舞火了 颜值不输女明星",
       "url": "https://www.baidu.com/s?wd=%E5%BE%90%E8%89%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E4%BC%B4%E8%88%9E%E7%81%AB%E4%BA%86+%E9%A2%9C%E5%80%BC%E4%B8%8D%E8%BE%93%E5%A5%B3%E6%98%8E%E6%98%9F&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "7041250"
+      "metric": "7047031"
     },
     {
       "title": "李思潼获金狮大赏最佳女主",
       "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%80%9D%E6%BD%BC%E8%8E%B7%E9%87%91%E7%8B%AE%E5%A4%A7%E8%B5%8F%E6%9C%80%E4%BD%B3%E5%A5%B3%E4%B8%BB&sa=fyb_hp_news&rsv_dl=fyb_hp_news",
-      "metric": "6944509"
+      "metric": "6953555"
     }
   ]
 }
