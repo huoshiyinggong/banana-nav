@@ -2885,7 +2885,7 @@ body[data-theme="dark"] .icon-preview-box {
 
 .clock {
   color: var(--text);
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -3740,7 +3740,7 @@ body .calculator-dialog {
 }
 
 .icon-box {
-  border: 1px solid rgba(255, 255, 255, 0.34);
+  border: 0;
 }
 
 body.has-wallpaper .site-name {
